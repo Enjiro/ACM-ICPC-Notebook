@@ -27,7 +27,7 @@ public:
 		if(!lazy[no])
 			return;
 		
-		tr[no]+=(r-l)*lazy[no];
+		tr[no]+=(r-l+1)*lazy[no];
 		if(l!=r)
 		{
 			int nxt=no*2;
