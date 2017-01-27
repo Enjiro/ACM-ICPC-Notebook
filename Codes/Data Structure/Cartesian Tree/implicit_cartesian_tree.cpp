@@ -24,18 +24,18 @@ struct node
 };
 
 //updating functions
-int get_cnt(node *root)
+inline int get_cnt(node *root)
 {
 	return root?root->c:0;
 }
 
-void upd_cnt(node *root)
+inline void upd_cnt(node *root)
 {
 	if(root)
 		root->c=1+get_cnt(root->L)+get_cnt(root->R);
 }
 
-void push(node *&root)
+inline void push(node *&root)
 {
 	if(root && root->rev)
 	{
@@ -48,7 +48,7 @@ void push(node *&root)
 	}
 }
 
-void propagate(node *&root)
+inline void propagate(node *&root)
 {
 	if(root)
 	{
@@ -65,12 +65,12 @@ void propagate(node *&root)
 	}
 }
 
-int get_max(node *root)
+inline int get_max(node *root)
 {
 	return root?root->v:-INF;
 }
 
-void upd_max(node *root)
+inline void upd_max(node *root)
 {
 	if(root)
 		root->v=max(root->x, max(get_max(root->L), get_max(root->R)));
@@ -146,7 +146,7 @@ void erase_kth(node *&root, int x)
 }
 
 //add x to [l,r]
-void paint(node *&root, int l, int r, int x)
+inline void paint(node *&root, int l, int r, int x)
 {
 	node *R1, *R2, *R3;
 	split(root, R1, R2, l);
@@ -159,7 +159,7 @@ void paint(node *&root, int l, int r, int x)
 }
 
 //max range query [l,r]
-int rquery(node *&root, int l, int r)
+inline int rquery(node *&root, int l, int r)
 {
 	node *R1, *R2, *R3;
 	split(root, R1, R2, l);
@@ -170,7 +170,7 @@ int rquery(node *&root, int l, int r)
 	return ret;
 }
 
-void reverse(node *&root, int l, int r)//reverse elements [l, r]
+inline void reverse(node *&root, int l, int r)//reverse elements [l, r]
 {
 	node *R1, *R2, *R3;
 	split(root, R1, R2, l);
