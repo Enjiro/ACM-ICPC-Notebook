@@ -76,7 +76,7 @@ inline void buildCentroid(int u, int l)
 	sz=0;
 	centDfs(u, u);
 	int c=findCentroid(u, u); //actual centroid
-	cg[c]=(c==l?c:l);
+	cg[c]=(u==l?c:l);
 	for(auto v:g[c])
 	{
 		g[v].erase(g[v].find(c));
