@@ -32,60 +32,60 @@
 \contentsline {subsection}{\numberline {2.4.2}Prim}{21}
 \contentsline {section}{\numberline {2.5}Flow}{21}
 \contentsline {subsection}{\numberline {2.5.1}Maximum Bipartite Matching}{21}
-\contentsline {subsection}{\numberline {2.5.2}Maximum Flow}{21}
-\contentsline {subsubsection}{Dinic}{21}
+\contentsline {subsection}{\numberline {2.5.2}Maximum Flow}{22}
+\contentsline {subsubsection}{Dinic}{22}
 \contentsline {subsection}{\numberline {2.5.3}Minimum Cost Maximum Flow}{23}
 \contentsline {subsubsection}{Dijkstra}{23}
-\contentsline {subsubsection}{Bellmanford}{25}
-\contentsline {subsection}{\numberline {2.5.4}Minimum Cut}{25}
-\contentsline {section}{\numberline {2.6}Tree}{25}
-\contentsline {subsection}{\numberline {2.6.1}Lowest Common Ancestor}{25}
-\contentsline {subsection}{\numberline {2.6.2}Centroid Decomposition}{25}
+\contentsline {subsubsection}{Bellmanford}{26}
+\contentsline {subsection}{\numberline {2.5.4}Minimum Cut}{26}
+\contentsline {section}{\numberline {2.6}Tree}{26}
+\contentsline {subsection}{\numberline {2.6.1}Lowest Common Ancestor}{26}
+\contentsline {subsection}{\numberline {2.6.2}Centroid Decomposition}{26}
 \contentsline {subsection}{\numberline {2.6.3}Heavy Light Decomposition on Edges}{27}
-\contentsline {subsection}{\numberline {2.6.4}Heavy Light Decomposition on Vertex}{30}
-\contentsline {subsection}{\numberline {2.6.5}All-Pairs Distance Sum}{30}
-\contentsline {section}{\numberline {2.7}MISC}{30}
-\contentsline {subsection}{\numberline {2.7.1}2-SAT}{30}
-\contentsline {chapter}{\numberline {3}Dynamic Programming}{31}
-\contentsline {section}{\numberline {3.1}Optimizations}{31}
-\contentsline {subsection}{\numberline {3.1.1}Divide and Counquer}{31}
-\contentsline {subsection}{\numberline {3.1.2}Convex Hull I}{32}
-\contentsline {subsubsection}{Linear}{32}
-\contentsline {subsubsection}{Dynamic}{33}
-\contentsline {subsection}{\numberline {3.1.3}Convex Hull II}{35}
-\contentsline {subsection}{\numberline {3.1.4}Knuth Optimization}{35}
-\contentsline {section}{\numberline {3.2}Digits}{35}
-\contentsline {section}{\numberline {3.3}Grundy Numbers}{35}
-\contentsline {chapter}{\numberline {4}String}{36}
-\contentsline {section}{\numberline {4.1}Hash}{36}
-\contentsline {section}{\numberline {4.2}KMP}{36}
-\contentsline {section}{\numberline {4.3}Aho Corasick}{36}
-\contentsline {section}{\numberline {4.4}Manacher}{36}
-\contentsline {section}{\numberline {4.5}Z-Algorithm}{36}
-\contentsline {section}{\numberline {4.6}Suffix Array \& LCP}{36}
-\contentsline {section}{\numberline {4.7}Suffix Tree}{36}
-\contentsline {chapter}{\numberline {5}Mathematic}{37}
-\contentsline {section}{\numberline {5.1}Prime Numbers}{37}
-\contentsline {subsection}{\numberline {5.1.1}Erastotenes Sieve}{37}
-\contentsline {subsection}{\numberline {5.1.2}Linear Sieve}{37}
-\contentsline {subsection}{\numberline {5.1.3}Miller Rabin}{37}
-\contentsline {subsection}{\numberline {5.1.4}BPSW}{37}
-\contentsline {subsection}{\numberline {5.1.5}Primality Test}{37}
-\contentsline {section}{\numberline {5.2}Chinese Remainder Theorem}{37}
-\contentsline {section}{\numberline {5.3}Fast Fourier Transformation}{37}
-\contentsline {section}{\numberline {5.4}Modular Math}{39}
-\contentsline {subsection}{\numberline {5.4.1}Multiplicative Inverse}{39}
-\contentsline {subsection}{\numberline {5.4.2}Linear All Multiplicative Inverse}{39}
-\contentsline {section}{\numberline {5.5}Gaussian Elimination}{39}
-\contentsline {section}{\numberline {5.6}Combinatorics}{39}
-\contentsline {chapter}{\numberline {6}Geometry}{40}
-\contentsline {section}{\numberline {6.1}2d Template}{40}
-\contentsline {section}{\numberline {6.2}3d Template}{40}
-\contentsline {section}{\numberline {6.3}Polygon Template}{40}
-\contentsline {section}{\numberline {6.4}Convex Hull}{40}
-\contentsline {subsection}{\numberline {6.4.1}Graham Scan}{40}
-\contentsline {subsection}{\numberline {6.4.2}Monotone Chain}{40}
-\contentsline {section}{\numberline {6.5}Rotating Calipers}{40}
-\contentsline {section}{\numberline {6.6}KD Tree}{40}
-\contentsline {section}{\numberline {6.7}Range Tree}{40}
-\contentsline {section}{\numberline {6.8}Circle Sweep}{40}
+\contentsline {subsection}{\numberline {2.6.4}Heavy Light Decomposition on Vertex}{31}
+\contentsline {subsection}{\numberline {2.6.5}All-Pairs Distance Sum}{31}
+\contentsline {section}{\numberline {2.7}MISC}{31}
+\contentsline {subsection}{\numberline {2.7.1}2-SAT}{31}
+\contentsline {chapter}{\numberline {3}Dynamic Programming}{32}
+\contentsline {section}{\numberline {3.1}Optimizations}{32}
+\contentsline {subsection}{\numberline {3.1.1}Divide and Counquer}{32}
+\contentsline {subsection}{\numberline {3.1.2}Convex Hull I}{33}
+\contentsline {subsubsection}{Linear}{33}
+\contentsline {subsubsection}{Dynamic}{34}
+\contentsline {subsection}{\numberline {3.1.3}Convex Hull II}{36}
+\contentsline {subsection}{\numberline {3.1.4}Knuth Optimization}{36}
+\contentsline {section}{\numberline {3.2}Digits}{36}
+\contentsline {section}{\numberline {3.3}Grundy Numbers}{36}
+\contentsline {chapter}{\numberline {4}String}{37}
+\contentsline {section}{\numberline {4.1}Hash}{37}
+\contentsline {section}{\numberline {4.2}KMP}{37}
+\contentsline {section}{\numberline {4.3}Aho Corasick}{37}
+\contentsline {section}{\numberline {4.4}Manacher}{37}
+\contentsline {section}{\numberline {4.5}Z-Algorithm}{37}
+\contentsline {section}{\numberline {4.6}Suffix Array \& LCP}{37}
+\contentsline {section}{\numberline {4.7}Suffix Tree}{37}
+\contentsline {chapter}{\numberline {5}Mathematic}{38}
+\contentsline {section}{\numberline {5.1}Prime Numbers}{38}
+\contentsline {subsection}{\numberline {5.1.1}Erastotenes Sieve}{38}
+\contentsline {subsection}{\numberline {5.1.2}Linear Sieve}{38}
+\contentsline {subsection}{\numberline {5.1.3}Miller Rabin}{38}
+\contentsline {subsection}{\numberline {5.1.4}BPSW}{38}
+\contentsline {subsection}{\numberline {5.1.5}Primality Test}{38}
+\contentsline {section}{\numberline {5.2}Chinese Remainder Theorem}{38}
+\contentsline {section}{\numberline {5.3}Fast Fourier Transformation}{38}
+\contentsline {section}{\numberline {5.4}Modular Math}{40}
+\contentsline {subsection}{\numberline {5.4.1}Multiplicative Inverse}{40}
+\contentsline {subsection}{\numberline {5.4.2}Linear All Multiplicative Inverse}{40}
+\contentsline {section}{\numberline {5.5}Gaussian Elimination}{40}
+\contentsline {section}{\numberline {5.6}Combinatorics}{40}
+\contentsline {chapter}{\numberline {6}Geometry}{41}
+\contentsline {section}{\numberline {6.1}2d Template}{41}
+\contentsline {section}{\numberline {6.2}3d Template}{41}
+\contentsline {section}{\numberline {6.3}Polygon Template}{41}
+\contentsline {section}{\numberline {6.4}Convex Hull}{41}
+\contentsline {subsection}{\numberline {6.4.1}Graham Scan}{41}
+\contentsline {subsection}{\numberline {6.4.2}Monotone Chain}{41}
+\contentsline {section}{\numberline {6.5}Rotating Calipers}{41}
+\contentsline {section}{\numberline {6.6}KD Tree}{41}
+\contentsline {section}{\numberline {6.7}Range Tree}{41}
+\contentsline {section}{\numberline {6.8}Circle Sweep}{41}
