@@ -6,17 +6,40 @@
 \usepackage{graphicx,color}
 \usepackage{amsthm,amsfonts}
 \usepackage{makeidx}
+\usepackage{parskip}
+\usepackage[margin=44pt]{geometry}
+\usepackage[charter]{mathdesign}
+\def\rmdefault{bch} % not scaled
+
+\makeatletter
+\newcommand{\zebra}[2]{%
+	\begingroup
+	\lst@basicstyle
+	\ifodd\value{lstnumber}%
+	\color{#1}%
+	\else
+	\color{#2}%
+	\fi
+	\rlap{\hspace*{\lst@numbersep}%
+		\color@block{\linewidth}{\ht\strutbox}{\dp\strutbox}%
+	}%
+	\endgroup
+}
+\makeatother
 
 \lstset 
 {
-	language=C++,
-	backgroundcolor=\color{black!5},
-	commentstyle=\color{red},
-	frame=single,
-	tabsize=4,
 	basicstyle=\footnotesize,
+	numberstyle=\zebra{black!15}{black!5},
+	language=C++,
+	numbers=left,
+	numbersep=15pt,
+	commentstyle=\color{red},
+	breaklines=true;
+	tabsize=4,
 }
 
+\pagestyle{empty}
 \begin{document}
 \title{ACM ICPC - Code Notebook}
 \author{David Batista \\ \href{david.batista3010@gmail.com} \\ Federal University of Itajuba - Brazil}
@@ -25,7 +48,7 @@
 \tableofcontents
 
 \chapter{Data Structure}
-
+	
 	\section{Segment Tree}
 		\subsection{Segment Tree \& Lazy Propagation}
 			\lstinputlisting{"../Codes/Data Structure/Segment Tree/segtree.cpp"}
