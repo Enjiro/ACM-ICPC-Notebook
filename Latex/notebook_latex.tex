@@ -7,9 +7,11 @@
 \usepackage{amsthm,amsfonts}
 \usepackage{makeidx}
 \usepackage{parskip}
-\usepackage[margin=44pt]{geometry}
+\usepackage[margin=55pt]{geometry}
 \usepackage[charter]{mathdesign}
 \def\rmdefault{bch} % not scaled
+\usepackage{titlesec}
+\usepackage{hyperref}
 
 \makeatletter
 \newcommand{\zebra}[2]{%
@@ -39,6 +41,10 @@
 	tabsize=4,
 }
 
+\newcommand{\sectionbreak}{\clearpage}
+\newcommand{\subsectionbreak}{\clearpage}
+\newcommand{\subsubsectionbreak}{\clearpage}
+
 \pagestyle{empty}
 \begin{document}
 \title{ACM ICPC - Code Notebook}
@@ -52,37 +58,45 @@
 	\section{Segment Tree}
 		\subsection{Segment Tree \& Lazy Propagation}
 			\lstinputlisting{"../Codes/Data Structure/Segment Tree/segtree.cpp"}
+		\newpage
 		\subsection{Quadtree}
 			\lstinputlisting{"../Codes/Data Structure/Segment Tree/quadtree.cpp"}
+		\newpage
 		\subsection{Mergesort Segtree}
 			\lstinputlisting{"../Codes/Data Structure/Segment Tree/mergesort.cpp"}
+		\newpage
 		\subsection{Persistent Segtree}
 			\lstinputlisting{"../Codes/Data Structure/Segment Tree/persistent.cpp"}
-			
+	
+	\newpage		
 	\section{Fenwick Tree}
 		\subsection{Fenwick Tree 1D}
 			\lstinputlisting{"../Codes/Data Structure/Fenwick Tree/bit1d.cpp"}
+		\newpage
 		\subsection{Fenwick Tree 2D}
 			\lstinputlisting{"../Codes/Data Structure/Fenwick Tree/bit2d.cpp"}
-			
+	\newpage	
 	\section{Cartesian Tree}
 		\subsection{Cartesian Tree}
 			\lstinputlisting{"../Codes/Data Structure/Cartesian Tree/cartesian_tree.cpp"}
+		\newpage
 		\subsection{Implicit Cartesian Tree}
 			\lstinputlisting{"../Codes/Data Structure/Cartesian Tree/implicit_cartesian_tree.cpp"}
-			
+	\newpage		
 	\section{Merge Sort \& Swap Count}
 		\subsection{Merge Sort \& Vector}
 			\lstinputlisting{"../Codes/Data Structure/Merge Sort/mergesort_swapcount.cpp"}
+		\newpage
 		\subsection{Merge Sort}
 			\lstinputlisting{"../Codes/Data Structure/Merge Sort/mergesort_swapcount_c.cpp"}
-			
+	\newpage
 	\section{Sparse Table}
 		\lstinputlisting{"../Codes/Data Structure/Sparse Table/sparsetable.cpp"}
-		
+	\newpage	
 	\section{SQRT Decomposition}
 		\subsection{Array}
 			\lstinputlisting{"../Codes/Data Structure/SQRT Decomposition/unique_values.cpp"}
+		\newpage
 		\subsection{Tree}
 			\lstinputlisting{"../Codes/Data Structure/SQRT Decomposition/unique_values_tree.cpp"}
 	
@@ -96,6 +110,7 @@
 	\section{Single Source Shortest Path}
 		\subsection{Dijkstra}
 		\subsection{Bellmanford}
+			\lstinputlisting{"../Codes/Graph/Common Problems/Single Source Shortest Path/bellman_ford.cpp"}
 		
 	\section{All Pairs Shortest Path}
 		\subsection{Floyd Warshall}
@@ -107,19 +122,25 @@
 	\section{Flow}
 		\subsection{Maximum Bipartite Matching}
 			\lstinputlisting{"../Codes/Graph/Flow/Maximum Bipartite Matching/maximum_bipartite_matching.cpp"}
+		\newpage
 		\subsection{Maximum Flow}
 			\subsubsection{Dinic}
 				\lstinputlisting{"../Codes/Graph/Flow/Maximum Flow/dinic.cpp"}
+		\newpage
 		\subsection{Minimum Cost Maximum Flow}
 			\subsubsection{Dijkstra}
 				\lstinputlisting{"../Codes/Graph/Flow/Maximum Flow Minimum Cost/mfmc_dijkstra.cpp"}
+			\newpage
 			\subsubsection{Bellmanford}
 		\subsection{Minimum Cut}
 		
 	\section{Tree}
 		\subsection{Lowest Common Ancestor}
+			\lstinputlisting{"../Codes/Graph/Tree/Lowest Common Ancestor/lca.cpp"}
+		\newpage
 		\subsection{Centroid Decomposition}
 			\lstinputlisting{"../Codes/Graph/Tree/Centroid Decomposition/centroid_decomposition.cpp"}
+		\newpage
 		\subsection{Heavy Light Decomposition on Edges}
 			\lstinputlisting{"../Codes/Graph/Tree/Heavy Light Decomposition/hld_edges.cpp"}
 		\subsection{Heavy Light Decomposition on Vertex}
@@ -133,35 +154,45 @@
 	\section{Optimizations}
 		\subsection{Divide and Counquer}
 			\lstinputlisting{"../Codes/Dynamic Programming/Optimizations/divide_and_conquer.cpp"}
+		\newpage
 		\subsection{Convex Hull I}
 			\subsubsection{Linear}
 				\lstinputlisting{"../Codes/Dynamic Programming/Optimizations/convex_hull_linear.cpp"}
+			\newpage
 			\subsubsection{Dynamic}
 				\lstinputlisting{"../Codes/Dynamic Programming/Optimizations/convex_hull_dynamic.cpp"}
 		\subsection{Convex Hull II}
 		\subsection{Knuth Optimization}
 	\section{Digits}
+		\lstinputlisting{"../Codes/Dynamic Programming/Digits/dp_on_digits.cpp"}
 	\section{Grundy Numbers}
 	
 \chapter{String}
 	\section{Hash}
 	\section{KMP}
 	\section{Aho Corasick}
+		\lstinputlisting{"../Codes/String/Aho Corasick/aho_corasick.cpp"}
 	\section{Manacher}
 	\section{Z-Algorithm}
 	\section{Suffix Array \& LCP}
+		\lstinputlisting{"../Codes/String/Suffix Array/suffix_array_lcp_O(n).cpp"}
 	\section{Suffix Tree}
 	
 \chapter{Mathematic}
 	\section{Prime Numbers}
 		\subsection{Erastotenes Sieve}
 		\subsection{Linear Sieve}
+			\lstinputlisting{"../Codes/Mathematic/Number Theory/Prime Numbers/linear_sieve.cpp"}
 		\subsection{Miller Rabin}
+			\lstinputlisting{"../Codes/Mathematic/Number Theory/Prime Numbers/miller_rabin.cpp"}
 		\subsection{BPSW}
+			\lstinputlisting{"../Codes/Mathematic/Number Theory/Prime Numbers/bpsw.cpp"}
 		\subsection{Primality Test}
+			\lstinputlisting{"../Codes/Mathematic/Number Theory/Prime Numbers/primality_test.cpp"}
 		
 	\section{Chinese Remainder Theorem}
 	
+	\newpage
 	\section{Fast Fourier Transformation}
 		\lstinputlisting{"../Codes/Mathematic/Number Theory/FFT/fft_multiply.cpp"}
 	
