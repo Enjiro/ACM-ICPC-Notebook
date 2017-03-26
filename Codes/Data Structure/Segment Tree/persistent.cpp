@@ -65,6 +65,7 @@ public:
 	void update(int i, int x)
 	{
 		root[id+1]=update(root[id], 0, n-1, i, x);
+		id++;
 	}
 	//returns sum(l, r) after the k-th update.
 	int query(int l, int r, int k)
