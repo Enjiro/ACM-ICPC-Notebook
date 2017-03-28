@@ -1,86 +1,90 @@
-const int N=1e+5;
-const int M=log2(N)+1;
-
-set<int>g[N]; //graph
-int h[N]; //heigh of nodes
-int trSz[N], sz; //tree subsize, size of current tree
-int lca[N][M]; //lca sparse table
-int cg[N]; //centroid graph
-
-void dfs(int u, int l)
+class graph
 {
-	lca[u][0]=l;
-	for(int i=1; i<M; i++)
-		lca[u][i]=lca[ lca[u][i-1] ][i-1];
-	for(auto v:g[u])
+	const static int N=1e+5;
+	const static int LN=log2(N)+1;
+public:
+	vector<int>g[N];
+	int h[N], lca[N][LN];
+
+	int sz[N];
+	int cg[N], gsz, dlt[N];
+	graph(){};
+	inline void addEdge(int u, int v)
 	{
-		if(v==l)
-			continue;
-		h[v]=h[u]+1;
-		dfs(v, u);
+		g[u].pb(v);
+		g[v].pb(u);
 	}
-}
-
-inline int getLca(int u, int v)
-{
-	if(h[u]>h[v])
-		swap(u, v);
-	for(int i=M-1; i>=0; i--)
-		if(h[v]-(1<<i)>=h[u])
-			v=lca[v][i];
-	if(u==v)
-		return u;
-	for(int i=M-1; i>=0; i--)
+	void buildLca(int u, int f)
 	{
-		if(lca[u][i]!=lca[v][i])
+		lca[u][0]=f;
+		for(int i=1; i<LN; i++)
+			lca[u][i]=lca[ lca[u][i-1] ][i-1];
+		for(int v:g[u])
 		{
-			u=lca[u][i];
-			v=lca[v][i];
+			if(v==f)
+				continue;
+			h[v]=h[u]+1;
+			buildLca(v, u);
 		}
 	}
-	return lca[u][0];
-}
-
-inline int getDist(int u, int v)
-{
-	return h[u]+h[v]-2*h[getLca(u, v)];
-}
-
-void centDfs(int u, int l)
-{
-	trSz[u]=1;
-	sz++;
-	for(auto v:g[u])
+	inline int getLca(int u, int v)
 	{
-		if(v==l)
-			continue;
-		centDfs(v, u);
-		trSz[u]+=trSz[v];
+		if(h[u]>h[v])
+			swap(u, v);
+		for(int i=LN-1; i>=0; i--)
+			if(h[v]-(1<<i)>=h[u])
+				v=lca[v][i];
+		if(u==v)
+			return u;
+		for(int i=LN-1; i>=0; i--)
+		{
+			if(lca[u][i]!=lca[v][i])
+			{
+				u=lca[u][i];
+				v=lca[v][i];
+			}
+		}
+		return lca[u][0];
 	}
-}
-
-int findCentroid(int u, int l)
-{
-	for(auto v:g[u])
+	inline int getDist(int u, int v)
 	{
-		if(v==l)
-			continue;
-		if(trSz[v]*2>=sz)
-			return findCentroid(v, u);
+		return h[u]+h[v]-2*h[getLca(u, v)];
 	}
-	return u;
-}
-
-inline void buildCentroid(int u, int l)
-{
-	sz=0;
-	centDfs(u, u);
-	int c=findCentroid(u, u); //actual centroid
-	cg[c]=(u==l?c:l);
-	for(auto v:g[c])
+	void buildSz(int u, int f)
 	{
-		g[v].erase(g[v].find(c));
-		buildCentroid(v, c);
+		gsz++;
+		sz[u]=1;
+		for(int v:g[u])
+		{
+			if(v==f || dlt[v])
+				continue;
+			buildSz(v, u);
+			sz[u]+=sz[v];
+		}
 	}
-	g[c].clear();
-}
+	int findCentroid(int u, int f)
+	{
+		for(int v:g[u])
+		{
+			if(v==f || dlt[v])
+				continue;
+			if(sz[v]*2>=gsz)
+				return findCentroid(v, u);
+		}
+		return u;
+	}
+	inline void buildCentroid(int u, int f)
+	{
+		gsz=0;
+		buildSz(u, u);
+		int c=findCentroid(u, u);
+		cg[c]=(u==f)?c:f;
+		dlt[c]=1;
+		for(int v:g[c])
+		{
+			if(v==c || dlt[v])
+				continue;
+			buildCentroid(v, c);
+		}
+	}
+};
