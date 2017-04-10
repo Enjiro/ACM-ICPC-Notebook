@@ -12,7 +12,7 @@ class segtree
 {
 	const static int N=1e+5+35;
 public:
-	vector<pii>data[8*N];
+	vector< pair<int,int> >data[8*N]; //graph
 	int idx[4*N][2], id;
 	segtree(){};
 	void set(int n)
