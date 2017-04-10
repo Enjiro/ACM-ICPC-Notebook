@@ -1,0 +1,239 @@
+const int NC=1e+5;
+ull aux[NC];
+void precalc(ull k)//prime k
+{
+	aux[0]=1LL;
+	for(int i=1; i<NC; i++)
+		aux[i]=aux[i-1]*k;
+}
+class hnode
+{
+public:
+	ull v;
+	int s;
+	hnode(){};
+	hnode(ull _v, int _s)
+	{
+		v=_v; s=_s;
+	}
+	hnode operator +(const hnode &foo) const
+	{
+		return hnode(v+(foo.v*aux[s]), s+foo.s);
+	}
+};
+
+//srand(time(NULL))
+int vrand()
+{
+	return abs(rand()<<(rand()%31));
+}
+struct node
+{
+	int x, y, c;
+	int lazy, rev;
+	hnode v;
+	node *L, *R;
+	node(){};
+	node(int _x)
+	{
+		x=_x, y=vrand();
+		L=R=NULL;
+		v=hnode((ull)_x, 1);
+		lazy=0;
+		rev=0;
+	}
+};
+
+//updating functions
+inline int get_cnt(node *root)
+{
+	return root?root->c:0;
+}
+
+inline void upd_cnt(node *root)
+{
+	if(root)
+	{
+		root->c=1+get_cnt(root->L)+get_cnt(root->R);
+	}
+}
+
+inline void push(node *&root)
+{
+	if(root && root->rev)
+	{
+		root->rev=0;
+		swap(root->L, root->R);
+		if(root->L)
+			root->L->rev^=1;
+		if(root->R)
+			root->R->rev^=1;
+	}
+}
+
+inline void propagate(node *&root)
+{
+	if(root)
+	{
+		if(!root->lazy)
+			return;
+		int lazy=root->lazy;
+		root->x=lazy;
+		root->v=hnode(lazy, root->v.s);
+		if(root->L)
+			root->L->lazy=lazy;
+		if(root->R)
+			root->R->lazy=lazy;
+		root->lazy=0;
+	}
+}
+
+inline hnode getHash(node *root)
+{
+	if(root)
+	{
+		propagate(root);
+		return root->v;
+	}
+	return hnode(0, 0);
+}
+
+inline void updHash(node *root)
+{
+	if(root)
+		root->v=(hnode(root->x, 1)+getHash(root->L))+getHash(root->R);
+}
+
+inline void update(node *root)
+{
+	propagate(root);
+	upd_cnt(root);
+	updHash(root);
+}
+
+void merge(node *&root, node *L, node *R)
+{
+	push(L);
+	push(R);
+	if(!L || !R)
+		root=L?L:R;
+	else if(L->y > R->y)
+		merge(L->R, L->R, R), root=L;
+	else 
+		merge(R->L, L, R->L), root=R;
+	update(root);
+}
+
+void split(node *root, node *&L, node *&R, int x, int add=0)
+{
+	if(!root)
+		return void(L=R=NULL);
+	push(root);
+	int ix=add+get_cnt(root->L); //implicit key
+	if(x<=ix)
+		split(root->L, L, root->L, x, add), R=root;
+	else
+		split(root->R, root->R, R, x, add+1+get_cnt(root->L)), L=root;
+	update(root);
+}
+
+//insert function
+void insert(node *&root, int pos, int x)//(insert x at position pos)
+{
+	node *R1, *R2;
+	split(root, R1, R2, pos);
+	merge(R1, R1, new node(x));
+	merge(root, R1, R2);
+}
+
+//erase value x
+void erase_x(node *&root, int x)
+{
+	if(!root)
+		return;
+	if(root->x==x)
+		merge(root, root->L, root->R);
+	else
+		erase_x(x < root->x? root->L:root->R, x);
+	update(root);
+}
+
+//1-indexed: erase kth value
+void erase_kth(node *&root, int x)
+{
+	if(!root)
+		return;
+	int Lc=get_cnt(root->L);
+	if(x-Lc-1==0)
+		merge(root, root->L, root->R);
+	else if(x>Lc)
+		erase_kth(root->R, x-Lc-1);
+	else
+		erase_kth(root->L, x);
+	update(root);
+}
+
+//change [l, r] to x: l==r only
+inline void paint(node *&root, int l, int r, int x)
+{
+	node *R1, *R2, *R3;
+	split(root, R1, R2, l);
+	split(R2, R2, R3, r-l+1);
+	R2->lazy=x;
+	propagate(R2);
+
+	merge(root, R1, R2);
+	merge(root, root, R3);
+}
+
+//hash from [l, r]
+inline hnode rquery(node *&root, int l, int r)
+{
+	node *R1, *R2, *R3;
+	split(root, R1, R2, l);
+	split(R2, R2, R3, r-l+1);
+	hnode ret=R2->v;
+	merge(root, R1, R2);
+	merge(root, root, R3);
+	return ret;
+}
+
+//reverse elements [l, r]
+inline void reverse(node *&root, int l, int r)
+{
+	node *R1, *R2, *R3;
+	split(root, R1, R2, l);
+	split(R2, R2, R3, r-l+1);
+	R2->rev^=1;
+	merge(root, R1, R2);
+	merge(root, root, R3);
+}
+
+//output functions
+int poscnt=0;
+void output_all(node *root)
+{
+	if(!root)
+		return;
+	update(root);
+	push(root);
+	output_all(root->L);
+	printf("[%d] %d\n", poscnt++, root->x);
+	output_all(root->R);
+}
+
+//1-indexed
+int output_kth(node *root, int x)
+{
+	if(!root)
+		return -1;
+	update(root);
+	push(root);
+	int Lc=get_cnt(root->L);
+	if(x-Lc-1==0)
+		return root->x;
+	if(x>Lc)
+		return output_kth(root->R, x-Lc-1);
+	else
+		return output_kth(root->L, x);
+}

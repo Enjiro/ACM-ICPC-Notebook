@@ -1,30 +1,29 @@
 const int NC=1e+5;
 ull aux[NC];
-void precalc(ull k)
+void precalc(ull k)//prime k
 {
 	aux[0]=1LL;
 	for(int i=1; i<NC; i++)
 		aux[i]=aux[i-1]*k;
 }
 
-class node
-{
-public:
-	ull v;
-	int s;
-	node(){};
-	node(ull _v, int _s)
-	{
-		v=_v; s=_s;
-	}
-	node operator +(const node &foo) const
-	{
-		return node(v+(foo.v*aux[s]), s+foo.s);
-	}
-};
-
 class segtree
 {
+	class node
+	{
+	public:
+		ull v;
+		int s;
+		node(){};
+		node(ull _v, int _s)
+		{
+			v=_v; s=_s;
+		}//
+		node operator +(const node &foo) const
+		{
+			return node(v+(foo.v*aux[s]), s+foo.s);
+		}
+	};
 	const static int N=1e+5+35;
 	node tr[4*N];
 public:
