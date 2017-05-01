@@ -47,9 +47,9 @@
 
 \begin{document}
 \title{ACM ICPC - Code Notebook}
-\author{David Batista \\ \href{david.batista3010@gmail.com} \\ Federal University of Itajuba - Brazil}
+\author{David Batista - david.batista3010@gmail.com \\ Federal University of Itajuba - Brazil}
 \date{\today}
-%%\maketitle
+\maketitle
 \tableofcontents
 
 \chapter{Data Structure}
@@ -57,6 +57,9 @@
 	\section{Segment Tree}
 		\subsection{Segment Tree \& Lazy Propagation}
 			\lstinputlisting{"../Codes/Data Structure/Segment Tree/segtree.cpp"}
+		\newpage
+		\subsection{Segment Tree \& Hash}
+			\lstinputlisting{"../Codes/Data Structure/Segment Tree/hash.cpp"}
 		\newpage
 		\subsection{Quadtree}
 			\lstinputlisting{"../Codes/Data Structure/Segment Tree/quadtree.cpp"}
@@ -81,12 +84,15 @@
 		\newpage
 		\subsection{Implicit Cartesian Tree}
 			\lstinputlisting{"../Codes/Data Structure/Cartesian Tree/implicit_cartesian_tree.cpp"}
+		\newpage
+		\subsection{Implicit Cartesian Tree \& Hash}
+			\lstinputlisting{"../Codes/Data Structure/Cartesian Tree/cartesian_tree_hash.cpp"}
 	\newpage		
 	\section{Merge Sort \& Swap Count}
 		\subsection{Merge Sort \& Vector}
 			\lstinputlisting{"../Codes/Data Structure/Merge Sort/mergesort_swapcount.cpp"}
 		\newpage
-		\subsection{Merge Sort}
+		\subsection{Merge Sort \& Array}
 			\lstinputlisting{"../Codes/Data Structure/Merge Sort/mergesort_swapcount_c.cpp"}
 	\newpage
 	\section{Sparse Table}
@@ -100,7 +106,6 @@
 			\lstinputlisting{"../Codes/Data Structure/SQRT Decomposition/unique_values_tree.cpp"}
 	
 \chapter{Graph}
-	
 	\section{Components}
 		\subsection{Articulations, Bridges \& Cycles}
 		\newpage
@@ -108,9 +113,9 @@
 			\subsubsection{Tarjan}
 				\lstinputlisting{"../Codes/Graph/DFS/tarjan.cpp"}
 		\subsection{Semi-Strongly Connected Components}
-	
 	\section{Single Source Shortest Path}
 		\subsection{Dijkstra}
+		\newpage
 		\subsection{Bellmanford}
 			\lstinputlisting{"../Codes/Graph/Common Problems/Single Source Shortest Path/bellman_ford.cpp"}
 		
@@ -120,7 +125,8 @@
 	\section{Minimum Spannig Tree}
 		\subsection{Kruskal}
 		\subsection{Prim}
-		
+	
+	\newpage
 	\section{Flow}
 		\subsection{Maximum Bipartite Matching}
 			\lstinputlisting{"../Codes/Graph/Flow/Maximum Bipartite Matching/maximum_bipartite_matching.cpp"}
@@ -155,7 +161,7 @@
 		\subsection{Heavy Light Decomposition on Edges}
 			\lstinputlisting{"../Codes/Graph/Tree/Heavy Light Decomposition/hld_edges.cpp"}
 		\subsection{Heavy Light Decomposition on Vertex}
-		\subsection{All-Pairs Distance Sum}
+		\subsection{All-Pairs Distance \& Centroid Decomposition}
 		\subsection{All-Pairs Distance \& FFT}
 		
 	\section{MISC}
@@ -164,8 +170,12 @@
 \chapter{Dynamic Programming}
 
 	\section{Optimizations}
-		\subsection{Divide and Counquer}
+		\subsection{Divide and Counquer - Example 1}
+			Memory can be optimized by using dp[2][N] \& dp[k\%2][m] + dp[(k-1)\%2][m]\\
 			\lstinputlisting{"../Codes/Dynamic Programming/Optimizations/divide_and_conquer.cpp"}
+		\newpage
+		\subsection{Divide and Counquer - Example 2}
+			\lstinputlisting{"../Codes/Dynamic Programming/Optimizations/divide_and_conquer_2.cpp"}
 		\newpage
 		\subsection{Convex Hull I}
 			Original recurrence:\\
@@ -208,12 +218,15 @@
 \chapter{String}
 	\section{Hash}
 		\lstinputlisting{"../Codes/String/Hash/hash.cpp"}
+	\newpage
 	\section{KMP}
 		\lstinputlisting{"../Codes/String/KMP/kmp.cpp"}
+	\newpage
 	\section{Aho Corasick}
 		\lstinputlisting{"../Codes/String/Aho Corasick/aho_corasick.cpp"}
 	\section{Manacher}
 	\section{Z-Algorithm}
+	\newpage
 	\section{Suffix Array \& LCP}
 		\lstinputlisting{"../Codes/String/Suffix Array/suffix_array_lcp_O(n).cpp"}
 	\section{Suffix Tree}
@@ -221,14 +234,21 @@
 \chapter{Mathematic}
 	\section{Prime Numbers}
 		\subsection{Erastotenes Sieve}
+		\newpage
 		\subsection{Linear Sieve}
 			\lstinputlisting{"../Codes/Mathematic/Number Theory/Prime Numbers/linear_sieve.cpp"}
+		\newpage
 		\subsection{Miller Rabin}
 			\lstinputlisting{"../Codes/Mathematic/Number Theory/Prime Numbers/miller_rabin.cpp"}
+		\newpage
 		\subsection{BPSW}
 			\lstinputlisting{"../Codes/Mathematic/Number Theory/Prime Numbers/bpsw.cpp"}
+		\newpage
 		\subsection{Primality Test}
 			\lstinputlisting{"../Codes/Mathematic/Number Theory/Prime Numbers/primality_test.cpp"}
+		\newpage
+		\subsection{Java Pollard Rho Decomposition}
+			\lstinputlisting{"../Codes/Mathematic/Number Theory/Prime Numbers/Pollard Rho/pollard_rho.java"}
 		
 	\section{Chinese Remainder Theorem}
 	
@@ -255,5 +275,19 @@
 	\section{KD Tree}
 	\section{Range Tree}
 	\section{Circle Sweep}
+
+\chapter{Templates}
+	\section{C++}
+		\lstinputlisting{"../Codes/Template/cpp.cpp"}
+	\section{Java}
+	\newpage
+	\section{Time Check}
+		\lstinputlisting{"../Codes/Template/timecheck.cpp"}
 	
+\chapter{Formulas}
+	\section{Areas}
+	\section{Volumes}
+	\section{Series}
+	\section{Combinatorics}
+	\section{Integral}
 \end{document}

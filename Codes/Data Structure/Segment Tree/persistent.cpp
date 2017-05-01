@@ -1,10 +1,9 @@
 class persistent_segtree
 {
 	const static int N=100000;
-	int n;
+	int n, cnt, id;
 	int tr[N];
 	int root[N], L[N], R[N];
-	int cnt, id;
 public:
 	persistent_segtree(){};
 	void set(int _n)
