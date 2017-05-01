@@ -36,16 +36,15 @@
 	language=C++,
 	numbers=left,
 	numbersep=15pt,
+	tabsize=4,
 	commentstyle=\color{red},
 	breaklines=true;
-	tabsize=4,
 }
 
 \newcommand{\sectionbreak}{\clearpage}
 \newcommand{\subsectionbreak}{\clearpage}
-\newcommand{\subsubsectionbreak}{\clearpage}
+\newcommand\tab[1][1cm]{\hspace*{#1}}
 
-\pagestyle{empty}
 \begin{document}
 \title{ACM ICPC - Code Notebook}
 \author{David Batista \\ \href{david.batista3010@gmail.com} \\ Federal University of Itajuba - Brazil}
@@ -104,7 +103,10 @@
 	
 	\section{Components}
 		\subsection{Articulations, Bridges \& Cycles}
+		\newpage
 		\subsection{Strongly Connected Components}
+			\subsubsection{Tarjan}
+				\lstinputlisting{"../Codes/Graph/DFS/tarjan.cpp"}
 		\subsection{Semi-Strongly Connected Components}
 	
 	\section{Single Source Shortest Path}
@@ -128,12 +130,21 @@
 				\lstinputlisting{"../Codes/Graph/Flow/Maximum Flow/dinic.cpp"}
 		\newpage
 		\subsection{Minimum Cost Maximum Flow}
+			Undirected graph:\\
+			$u \rightarrow uu(flow, 0)$\\
+			$uu \rightarrow vv(flow, cost)$\\
+			$vv \rightarrow v(flow, 0)$\\
+			$v \rightarrow uu(flow, 0)$\\
+			$vv \rightarrow u(flow, 0)$
 			\subsubsection{Dijkstra}
 				\lstinputlisting{"../Codes/Graph/Flow/Maximum Flow Minimum Cost/mfmc_dijkstra.cpp"}
 			\newpage
 			\subsubsection{Bellmanford}
 		\subsection{Minimum Cut}
-		
+			\subsubsection{Stoer Wagner}
+				\lstinputlisting{"../Codes/Graph/Flow/Maximum Flow Minimum Cut/stoer_wagner.cpp"}
+	
+	\newpage
 	\section{Tree}
 		\subsection{Lowest Common Ancestor}
 			\lstinputlisting{"../Codes/Graph/Tree/Lowest Common Ancestor/lca.cpp"}
@@ -145,6 +156,7 @@
 			\lstinputlisting{"../Codes/Graph/Tree/Heavy Light Decomposition/hld_edges.cpp"}
 		\subsection{Heavy Light Decomposition on Vertex}
 		\subsection{All-Pairs Distance Sum}
+		\subsection{All-Pairs Distance \& FFT}
 		
 	\section{MISC}
 		\subsection{2-SAT}
@@ -156,6 +168,21 @@
 			\lstinputlisting{"../Codes/Dynamic Programming/Optimizations/divide_and_conquer.cpp"}
 		\newpage
 		\subsection{Convex Hull I}
+			Original recurrence:\\
+			\tab $dp[i]=min(dp[j]+b[j]*a[i])$ for j<i\\
+			Conditions:\\
+			\tab $b[j]>=b[j+1]$\\
+			\tab $a[i]<=a[i+1]$\\
+			Solution:\\
+			Hull cht=Hull() or DynamicHull cht;\\
+			cht.insertLine(b[0], dp[0])\\
+			for(int i=1; i<n; i++)\\
+			\{\\
+				\tab dp[i]=cht.query(a[i]);\\
+				\tab cht.insertLine(b[i], dp[i]);\\
+			\}\\
+			answer is dp[n-1];
+
 			\subsubsection{Linear}
 				\lstinputlisting{"../Codes/Dynamic Programming/Optimizations/convex_hull_linear.cpp"}
 			\newpage
@@ -163,13 +190,26 @@
 				\lstinputlisting{"../Codes/Dynamic Programming/Optimizations/convex_hull_dynamic.cpp"}
 		\subsection{Convex Hull II}
 		\subsection{Knuth Optimization}
+	\newpage
+	\section{Matrix Exponentiation}
+		\lstinputlisting{"../Codes/Dynamic Programming/Common Problems/Matrix Exponentiation/matrix_exp.cpp"}
+	\newpage
 	\section{Digits}
 		\lstinputlisting{"../Codes/Dynamic Programming/Digits/dp_on_digits.cpp"}
+	\newpage
 	\section{Grundy Numbers}
-	
+		Positions have the following properties:
+		\begin{itemize}
+			\item All terminal positions are losing.
+			\item If a player is able to move to a losing position then he is in a winning position.
+			\item If a player is able to move only to the winning positions then he is in a losing position.
+		\end{itemize}
+		\lstinputlisting{"../Codes/Dynamic Programming/Common Problems/Grundy Numbers/grundy.cpp"}
 \chapter{String}
 	\section{Hash}
+		\lstinputlisting{"../Codes/String/Hash/hash.cpp"}
 	\section{KMP}
+		\lstinputlisting{"../Codes/String/KMP/kmp.cpp"}
 	\section{Aho Corasick}
 		\lstinputlisting{"../Codes/String/Aho Corasick/aho_corasick.cpp"}
 	\section{Manacher}

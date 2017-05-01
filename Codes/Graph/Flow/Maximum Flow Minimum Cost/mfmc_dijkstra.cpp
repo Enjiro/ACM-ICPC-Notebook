@@ -1,11 +1,3 @@
-/*
-undirected graph:
-u->uu(flow, 0)
-uu->vv(flow, cost)
-vv->v(flow, 0)
-v->xx(flow, 0)
-vv->u(flow, 0)
-*/
 typedef int FTYPE; //type of flow
 typedef int CTYPE; //type of cost
 typedef pair<FTYPE,CTYPE>pfc;

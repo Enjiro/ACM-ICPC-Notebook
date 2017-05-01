@@ -1,18 +1,3 @@
-//Original recurrence:
-//	  dp[i]=min(dp[j]+b[j]*a[i]) for j<i
-//Condition:
-//	  b[j]>=b[j+1]
-//	  a[i]<=a[i+1]
-// Solution:
-// HullDynamic cht;
-// cht.insertLine(b[0], dp[0])
-// for(int i=1; i<n; i++)
-// {
-// 	  dp[i]=cht.query(a[i]);
-// 	  cht.insertLine(b[i], dp[i])
-// }
-// answer is dp[n-1]
-
 const long long is_query=-(1LL<<62);
 class Line
 {
