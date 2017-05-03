@@ -9,10 +9,9 @@
 \usepackage{parskip}
 \usepackage[margin=55pt]{geometry}
 \usepackage[charter]{mathdesign}
-\def\rmdefault{bch} % not scaled
+\def\rmdefault{bch}
 \usepackage{titlesec}
 \usepackage{hyperref}
-
 \makeatletter
 \newcommand{\zebra}[2]{%
 	\begingroup
@@ -268,9 +267,18 @@
 	\section{Combinatorics}
 	
 \chapter{Geometry}
-	\section{2d Template}
-	\section{3d Template}
-	\section{Polygon Template}
+	\section{2d}
+		\subsection{Point Template}
+			\lstinputlisting{"../Codes/Geometry/2d/point.cpp"}
+		\newpage
+		\subsection{Functions}
+			\lstinputlisting{"../Codes/Geometry/2d/functions.cpp"}
+		\newpage
+		\subsection{Polygons}
+			\lstinputlisting{"../Codes/Geometry/2d/pol.cpp"}
+	\section{3d}
+		\subsection{Point Template}
+			\lstinputlisting{../Codes/Geometry/3d/points.cpp}
 	\section{Convex Hull}
 		\subsection{Graham Scan}
 		\subsection{Monotone Chain}
