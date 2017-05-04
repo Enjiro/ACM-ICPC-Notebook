@@ -177,12 +177,10 @@ int main()
   //2 | / P6    \ ___    /
   //1 P0              P2
   //0 1 2 3 4 5 6 7 8 9 101112
-
   point P6(3, 2); // outside this (concave) polygon
   printf("Point P6 is inside this polygon = %d\n", inPolygon(P6, P)); // false
   point P7(3, 4); // inside this (concave) polygon
   printf("Point P7 is inside this polygon = %d\n", inPolygon(P7, P)); // true
-
   // cutting the original polygon based on line P[2] -> P[4] (get the left side)
   //7 P5--------------P4
   //6 |               |  \
@@ -201,11 +199,9 @@ int main()
   //2 | /       \ ___ |
   //1 P0              P2
   //0 1 2 3 4 5 6 7 8 9
-
   P = cutPolygon(P[2], P[4], P);
   printf("Perimeter of polygon = %.2f\n", perimeter(P)); // smaller now 29.15
   printf("Area of polygon = %.2f\n", area(P)); // 40.00
-
   // running convex hull of the resulting polygon (index changes again)
   //7 P3--------------P2
   //6 |               |
@@ -215,7 +211,6 @@ int main()
   //2 |               |
   //1 P0--------------P1
   //0 1 2 3 4 5 6 7 8 9
-
   P = CH(P); // now this is a rectangle
   for(int i=0; i<P.size(); i++)
     printf("%.0f %.0f\n", P[i].x, P[i].y);
