@@ -59,5 +59,7 @@ public:
 		int q2=query(nxt-1, midl+1, r1, l2, midr, i1, j1, i2, j2);
 		int q3=query(nxt, l1, midr+1, midl, r2, i1, j1, i2, j2);
 		int q4=query(nxt+1, midl+1, midr+1, l2, r2, i1, j2, i2, j2);
+
+		return q1+q2+q3+q4;
 	}
 };
