@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6300 64-bit) (preloaded format=pdflatex 2017.5.1)  4 MAY 2017 14:25
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.8.27)  8 SEP 2017 13:24
 entering extended mode
 **./notebook_latex.tex
 (notebook_latex.tex
 LaTeX2e <2017-04-15>
-Babel <3.9r> and hyphenation patterns for 75 language(s) loaded.
+Babel <3.10> and hyphenation patterns for 75 language(s) loaded.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\report.cls"
 Document Class: report 2014/09/29 v1.4h Standard LaTeX document class
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\size10.clo"
@@ -22,7 +22,7 @@ File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-(C:\Users\DaviD\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\listings.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\listings\listings.sty"
 ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks14
@@ -40,20 +40,19 @@ Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \lst@lineno=\count93
 \lst@maxwidth=\dimen106
 
-(C:\Users\DaviD\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\lstmisc.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstmisc.sty"
 File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
 \c@lstnumber=\count94
 \lst@skipnumbers=\count95
 \lst@framebox=\box27
 )
-(C:\Users\DaviD\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\listings.cfg
+("C:\Program Files\MiKTeX 2.9\tex\latex\listings\listings.cfg"
 File: listings.cfg 2015/06/04 1.6 listings configuration
 ))
 Package: listings 2015/06/04 1.6 (Carsten Heinz)
 
-(C:\Users\DaviD\AppData\Roaming\MiKTeX\2.9\tex\latex\mathtools\mathtools.sty
-Package: mathtools 2015/11/12 v1.18 mathematical typesetting tools
-
+(C:\Users\DaviD-PC\AppData\Roaming\MiKTeX\2.9\tex\latex\mathtools\mathtools.sty
+Package: mathtools 2017/05/24 v1.19 mathematical typesetting tools
 ("C:\Program Files\MiKTeX 2.9\tex\latex\tools\calc.sty"
 Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Acount=\count96
@@ -67,8 +66,8 @@ LaTeX Info: Redefining \addtolength on input line 81.
 \calc@Ccount=\count98
 \calc@Cskip=\skip45
 )
-(C:\Users\DaviD\AppData\Roaming\MiKTeX\2.9\tex\latex\mathtools\mhsetup.sty
-Package: mhsetup 2010/01/21 v1.2a programming setup (MH)
+(C:\Users\DaviD-PC\AppData\Roaming\MiKTeX\2.9\tex\latex\mathtools\mhsetup.sty
+Package: mhsetup 2017/03/31 v1.3 programming setup (MH)
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
 Package: amsmath 2016/11/05 v2.16a AMS math features
@@ -142,7 +141,7 @@ LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 129.
 \l_MT_above_shortintertext_sep=\dimen123
 \l_MT_below_shortintertext_sep=\dimen124
 )
-(C:\Users\DaviD\AppData\Roaming\MiKTeX\2.9\tex\latex\xcolor\xcolor.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\xcolor\xcolor.sty"
 Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\color.cfg"
@@ -240,24 +239,26 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@dimlist=\toks27
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.cfg"))
-(C:\Users\DaviD\AppData\Roaming\MiKTeX\2.9\tex\latex\mathdesign\mathdesign.sty
+(C:\Users\DaviD-PC\AppData\Roaming\MiKTeX\2.9\tex\latex\mathdesign\mathdesign.s
+ty
 Package: mathdesign 2013/08/29 v2.31 Math Design Project
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\ifthen.sty"
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\base\ifthen.sty"
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
-(C:\Users\DaviD\AppData\Roaming\MiKTeX\2.9\tex\latex\mathdesign\mdbch\mdbch.cfg
-)
-(C:\Users\DaviD\AppData\Roaming\MiKTeX\2.9\tex\latex\mathdesign\mdbch\mdbch.sty
+(C:\Users\DaviD-PC\AppData\Roaming\MiKTeX\2.9\tex\latex\mathdesign\mdbch\mdbch.
+cfg)
+(C:\Users\DaviD-PC\AppData\Roaming\MiKTeX\2.9\tex\latex\mathdesign\mdbch\mdbch.
+sty
 Package: mdbch 2013/08/29 v2.31 bitstream bitstream charter + mdbch (Math Desig
 n Project)
-(C:\Users\DaviD\AppData\Roaming\MiKTeX\2.9\tex\latex\mathdesign\mdfont.def
+
+(C:\Users\DaviD-PC\AppData\Roaming\MiKTeX\2.9\tex\latex\mathdesign\mdfont.def
 File: mdfont.def 2013/08/29 v2.31 (Math Design Project)
 )
-(C:\Users\DaviD\AppData\Roaming\MiKTeX\2.9\tex\latex\mathdesign\mdsffont.def
+(C:\Users\DaviD-PC\AppData\Roaming\MiKTeX\2.9\tex\latex\mathdesign\mdsffont.def
 File: mdsffont.def 2013/08/29 v2.31 (Math Design Project)
 )
-(C:\Users\DaviD\AppData\Roaming\MiKTeX\2.9\tex\latex\mathdesign\mdttfont.def
+(C:\Users\DaviD-PC\AppData\Roaming\MiKTeX\2.9\tex\latex\mathdesign\mdttfont.def
 File: mdttfont.def 2013/08/29 v2.31 (Math Design Project)
 )
 \symmdcal=\mathgroup6
@@ -316,8 +317,7 @@ LaTeX Font Info:    Overwriting symbol font `lettersupright' in version `bold'
 LaTeX Font Info:    Redeclaring math alphabet \mathrm on input line 145.
 LaTeX Font Info:    Overwriting math alphabet `\mathcal' in version `normal'
 (Font)                  OMS/mdbch/m/n --> OMS/mdbch/m/n on input line 167.
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\xkeyval\xkeyval.sty"
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\xkeyval\xkeyval.sty"
 Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
 
 ("C:\Program Files\MiKTeX 2.9\tex\generic\xkeyval\xkeyval.tex"
@@ -331,8 +331,8 @@ File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 LaTeX Font Info:    Try loading font information for OT1+mdbch on input line 18
 6.
 
-(C:\Users\DaviD\AppData\Roaming\MiKTeX\2.9\tex\latex\mathdesign\mdbch\ot1mdbch.
-fd
+(C:\Users\DaviD-PC\AppData\Roaming\MiKTeX\2.9\tex\latex\mathdesign\mdbch\ot1mdb
+ch.fd
 File: ot1mdbch.fd 2013/08/29 Fontinst v1.933 font definitions for OT1/mdbch.
 )
 LaTeX Font Info:    Font shape `OT1/mdbch/m/n' will be
@@ -361,13 +361,13 @@ LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
 LaTeX Font Info:    Try loading font information for T1+mdbch on input line 105
 .
 
-(C:\Users\DaviD\AppData\Roaming\MiKTeX\2.9\tex\latex\mathdesign\mdbch\t1mdbch.f
-d
+(C:\Users\DaviD-PC\AppData\Roaming\MiKTeX\2.9\tex\latex\mathdesign\mdbch\t1mdbc
+h.fd
 File: t1mdbch.fd 2013/08/29 Fontinst v1.933 font definitions for T1/mdbch.
 )
 LaTeX Font Info:    Font shape `T1/mdbch/m/n' will be
 (Font)              scaled to size 9.60007pt on input line 105.
-)) (C:\Users\DaviD\AppData\Roaming\MiKTeX\2.9\tex\latex\titlesec\titlesec.sty
+)) ("C:\Program Files\MiKTeX 2.9\tex\latex\titlesec\titlesec.sty"
 Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
 \ttl@box=\box30
 \beforetitleunit=\skip54
@@ -378,7 +378,8 @@ Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
 \titlewidth=\dimen137
 \titlewidthlast=\dimen138
 \titlewidthfirst=\dimen139
-) ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hyperref.sty"
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hyperref.sty"
 Package: hyperref 2017/03/14 v6.85a Hypertext links for LaTeX
 
 ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\hobsub-hyperref.sty"
@@ -451,7 +452,7 @@ Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4751.
 \c@Hy@tempcnt=\count120
 
-(C:\Users\DaviD\AppData\Roaming\MiKTeX\2.9\tex\latex\url\url.sty
+(C:\Users\DaviD-PC\AppData\Roaming\MiKTeX\2.9\tex\latex\url\url.sty
 \Urlmuskip=\muskip11
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
@@ -488,54 +489,54 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip56
 )
-(C:\Users\DaviD\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\lstlang1.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstlang1.sty"
 File: lstlang1.sty 2015/06/04 1.6 listings language file
 )
-(C:\Users\DaviD\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\lstlang1.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstlang1.sty"
 File: lstlang1.sty 2015/06/04 1.6 listings language file
 )
-(C:\Users\DaviD\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\lstmisc.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstmisc.sty"
 File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
 )
 (notebook_latex.aux)
 \openout1 = `notebook_latex.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for MDA/cmr/m/n on input line 47.
-LaTeX Font Info:    Try loading font information for MDA+cmr on input line 47.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for MDA/cmr/m/n on input line 50.
+LaTeX Font Info:    Try loading font information for MDA+cmr on input line 50.
 
-(C:\Users\DaviD\AppData\Roaming\MiKTeX\2.9\tex\latex\mathdesign\mdacmr.fd
+(C:\Users\DaviD-PC\AppData\Roaming\MiKTeX\2.9\tex\latex\mathdesign\mdacmr.fd
 File: mdacmr.fd 
 )
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for MDB/cmr/m/n on input line 47.
-LaTeX Font Info:    Try loading font information for MDB+cmr on input line 47.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for MDB/cmr/m/n on input line 50.
+LaTeX Font Info:    Try loading font information for MDB+cmr on input line 50.
 
-(C:\Users\DaviD\AppData\Roaming\MiKTeX\2.9\tex\latex\mathdesign\mdbcmr.fd
+(C:\Users\DaviD-PC\AppData\Roaming\MiKTeX\2.9\tex\latex\mathdesign\mdbcmr.fd
 File: mdbcmr.fd 
 )
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Try loading font information for T1+bch on input line 47.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Try loading font information for T1+bch on input line 50.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\t1bch.fd"
 File: t1bch.fd 2004/10/18 font definitions for T1/bch.
 )
 \c@lstlisting=\count127
 
-(C:\Users\DaviD\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
+(C:\Users\DaviD-PC\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count128
 \scratchdimen=\dimen144
@@ -597,10 +598,10 @@ G,.JBIG2,.JB2,.eps]
 
 
 Package mathdesign/mdbch Warning: Package 'amsfonts' shouldn't be used in conjo
-nction with package mdbch, on input line 47.
+nction with package mdbch, on input line 50.
 
 \AtBeginShipoutBox=\box32
-Package hyperref Info: Link coloring OFF on input line 47.
+Package hyperref Info: Link coloring OFF on input line 50.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
@@ -609,103 +610,103 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count134
 )
-LaTeX Info: Redefining \ref on input line 47.
-LaTeX Info: Redefining \pageref on input line 47.
-LaTeX Info: Redefining \nameref on input line 47.
+LaTeX Info: Redefining \ref on input line 50.
+LaTeX Info: Redefining \pageref on input line 50.
+LaTeX Info: Redefining \nameref on input line 50.
 
 (notebook_latex.out) (notebook_latex.out)
 \@outlinefile=\write3
 \openout3 = `notebook_latex.out'.
 
 LaTeX Font Info:    Font shape `OT1/mdbch/m/n' will be
-(Font)              scaled to size 11.52008pt on input line 52.
+(Font)              scaled to size 11.52008pt on input line 55.
 LaTeX Font Info:    Font shape `OT1/mdbch/m/n' will be
-(Font)              scaled to size 7.68005pt on input line 52.
+(Font)              scaled to size 7.68005pt on input line 55.
 LaTeX Font Info:    Font shape `OT1/mdbch/m/n' will be
-(Font)              scaled to size 5.76004pt on input line 52.
-LaTeX Font Info:    Try loading font information for OML+mdbch on input line 52
+(Font)              scaled to size 5.76004pt on input line 55.
+LaTeX Font Info:    Try loading font information for OML+mdbch on input line 55
 .
 
-(C:\Users\DaviD\AppData\Roaming\MiKTeX\2.9\tex\latex\mathdesign\mdbch\omlmdbch.
-fd
+(C:\Users\DaviD-PC\AppData\Roaming\MiKTeX\2.9\tex\latex\mathdesign\mdbch\omlmdb
+ch.fd
 File: omlmdbch.fd 2013/08/29 Fontinst v1.933 font definitions for OML/mdbch.
 )
 LaTeX Font Info:    Font shape `OML/mdbch/m/it' will be
-(Font)              scaled to size 11.52008pt on input line 52.
+(Font)              scaled to size 11.52008pt on input line 55.
 LaTeX Font Info:    Font shape `OML/mdbch/m/it' will be
-(Font)              scaled to size 7.68005pt on input line 52.
+(Font)              scaled to size 7.68005pt on input line 55.
 LaTeX Font Info:    Font shape `OML/mdbch/m/it' will be
-(Font)              scaled to size 5.76004pt on input line 52.
-LaTeX Font Info:    Try loading font information for OMS+mdbch on input line 52
+(Font)              scaled to size 5.76004pt on input line 55.
+LaTeX Font Info:    Try loading font information for OMS+mdbch on input line 55
 .
 
-(C:\Users\DaviD\AppData\Roaming\MiKTeX\2.9\tex\latex\mathdesign\mdbch\omsmdbch.
-fd
+(C:\Users\DaviD-PC\AppData\Roaming\MiKTeX\2.9\tex\latex\mathdesign\mdbch\omsmdb
+ch.fd
 File: omsmdbch.fd 2013/08/29 Fontinst v1.933 font definitions for OMS/mdbch.
 )
 LaTeX Font Info:    Font shape `OMS/mdbch/m/n' will be
-(Font)              scaled to size 11.52008pt on input line 52.
+(Font)              scaled to size 11.52008pt on input line 55.
 LaTeX Font Info:    Font shape `OMS/mdbch/m/n' will be
-(Font)              scaled to size 7.68005pt on input line 52.
+(Font)              scaled to size 7.68005pt on input line 55.
 LaTeX Font Info:    Font shape `OMS/mdbch/m/n' will be
-(Font)              scaled to size 5.76004pt on input line 52.
-LaTeX Font Info:    Try loading font information for OMX+mdbch on input line 52
+(Font)              scaled to size 5.76004pt on input line 55.
+LaTeX Font Info:    Try loading font information for OMX+mdbch on input line 55
 .
 
-(C:\Users\DaviD\AppData\Roaming\MiKTeX\2.9\tex\latex\mathdesign\mdbch\omxmdbch.
-fd
+(C:\Users\DaviD-PC\AppData\Roaming\MiKTeX\2.9\tex\latex\mathdesign\mdbch\omxmdb
+ch.fd
 File: omxmdbch.fd 2013/08/29 Fontinst v1.933 font definitions for OMX/mdbch.
 )
 LaTeX Font Info:    Font shape `OMX/mdbch/m/n' will be
-(Font)              scaled to size 11.52008pt on input line 52.
+(Font)              scaled to size 11.52008pt on input line 55.
 LaTeX Font Info:    Font shape `OMX/mdbch/m/n' will be
-(Font)              scaled to size 7.68005pt on input line 52.
+(Font)              scaled to size 7.68005pt on input line 55.
 LaTeX Font Info:    Font shape `OMX/mdbch/m/n' will be
-(Font)              scaled to size 5.76004pt on input line 52.
-LaTeX Font Info:    Try loading font information for U+msa on input line 52.
+(Font)              scaled to size 5.76004pt on input line 55.
+LaTeX Font Info:    Try loading font information for U+msa on input line 55.
  ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 52.
+LaTeX Font Info:    Try loading font information for U+msb on input line 55.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Font shape `OML/mdbch/m/n' will be
-(Font)              scaled to size 11.52008pt on input line 52.
+(Font)              scaled to size 11.52008pt on input line 55.
 LaTeX Font Info:    Font shape `OML/mdbch/m/n' will be
-(Font)              scaled to size 7.68005pt on input line 52.
+(Font)              scaled to size 7.68005pt on input line 55.
 LaTeX Font Info:    Font shape `OML/mdbch/m/n' will be
-(Font)              scaled to size 5.76004pt on input line 52.
-LaTeX Font Info:    Try loading font information for MDA+mdbch on input line 52
+(Font)              scaled to size 5.76004pt on input line 55.
+LaTeX Font Info:    Try loading font information for MDA+mdbch on input line 55
 .
 
-(C:\Users\DaviD\AppData\Roaming\MiKTeX\2.9\tex\latex\mathdesign\mdbch\mdamdbch.
-fd
+(C:\Users\DaviD-PC\AppData\Roaming\MiKTeX\2.9\tex\latex\mathdesign\mdbch\mdamdb
+ch.fd
 File: mdamdbch.fd 2013/08/29 Fontinst v1.933 font definitions for MDA/mdbch.
 )
 LaTeX Font Info:    Font shape `MDA/mdbch/m/n' will be
-(Font)              scaled to size 11.52008pt on input line 52.
+(Font)              scaled to size 11.52008pt on input line 55.
 LaTeX Font Info:    Font shape `MDA/mdbch/m/n' will be
-(Font)              scaled to size 7.68005pt on input line 52.
+(Font)              scaled to size 7.68005pt on input line 55.
 LaTeX Font Info:    Font shape `MDA/mdbch/m/n' will be
-(Font)              scaled to size 5.76004pt on input line 52.
-LaTeX Font Info:    Try loading font information for MDB+mdbch on input line 52
+(Font)              scaled to size 5.76004pt on input line 55.
+LaTeX Font Info:    Try loading font information for MDB+mdbch on input line 55
 .
 
-(C:\Users\DaviD\AppData\Roaming\MiKTeX\2.9\tex\latex\mathdesign\mdbch\mdbmdbch.
-fd
+(C:\Users\DaviD-PC\AppData\Roaming\MiKTeX\2.9\tex\latex\mathdesign\mdbch\mdbmdb
+ch.fd
 File: mdbmdbch.fd 2013/08/29 Fontinst v1.933 font definitions for MDB/mdbch.
 )
 LaTeX Font Info:    Font shape `MDB/mdbch/m/n' will be
-(Font)              scaled to size 11.52008pt on input line 52.
+(Font)              scaled to size 11.52008pt on input line 55.
 LaTeX Font Info:    Font shape `MDB/mdbch/m/n' will be
-(Font)              scaled to size 7.68005pt on input line 52.
+(Font)              scaled to size 7.68005pt on input line 55.
 LaTeX Font Info:    Font shape `MDB/mdbch/m/n' will be
-(Font)              scaled to size 5.76004pt on input line 52.
+(Font)              scaled to size 5.76004pt on input line 55.
  [1
 
-{C:/Users/DaviD/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
+{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
 (notebook_latex.toc
 LaTeX Font Info:    Font shape `OT1/mdbch/m/n' will be
 (Font)              scaled to size 6.72005pt on input line 2.
@@ -751,37 +752,67 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.55 ...erline {2.7.1}2-SAT}{49}{subsection.2.7.1}
+l.55 ...erline {2.7.1}2-SAT}{47}{subsection.2.7.1}
                                                    [1
 
 ]
-Overfull \hbox (1.17996pt too wide) detected at line 111
+Overfull \hbox (1.17996pt too wide) detected at line 103
  []\T1/bch/m/n/10 100
+ []
+
+
+Overfull \hbox (1.17996pt too wide) detected at line 104
+ []\T1/bch/m/n/10 100
+ []
+
+
+Overfull \hbox (1.17996pt too wide) detected at line 105
+ []\T1/bch/m/n/10 101
+ []
+
+
+Overfull \hbox (1.17996pt too wide) detected at line 106
+ []\T1/bch/m/n/10 102
+ []
+
+
+Overfull \hbox (1.17996pt too wide) detected at line 107
+ []\T1/bch/m/n/10 103
+ []
+
+
+Overfull \hbox (1.17996pt too wide) detected at line 109
+ []\T1/bch/m/n/10 105
+ []
+
+
+Overfull \hbox (1.17996pt too wide) detected at line 111
+ []\T1/bch/m/n/10 106
+ []
+
+
+Overfull \hbox (1.17996pt too wide) detected at line 112
+ []\T1/bch/m/n/10 108
  []
 
 [2]
 Overfull \hbox (1.17996pt too wide) detected at line 113
- []\T1/bch/m/n/10 101
+ []\T1/bch/m/n/10 108
  []
 
 
 Overfull \hbox (1.17996pt too wide) detected at line 114
- []\T1/bch/m/n/10 101
- []
-
-
-Overfull \hbox (1.17996pt too wide) detected at line 115
- []\T1/bch/m/n/10 101
+ []\T1/bch/m/n/10 109
  []
 
 
 Overfull \hbox (1.17996pt too wide) detected at line 116
- []\T1/bch/m/n/10 101
+ []\T1/bch/m/n/10 110
  []
 
 
 Overfull \hbox (1.17996pt too wide) detected at line 117
- []\T1/bch/m/n/10 101
+ []\T1/bch/m/n/10 111
  []
 
 )
@@ -886,176 +917,191 @@ Chapter 2.
 ] [46] [47]) [48] (../Codes/Graph/2-SAT/2sat.cpp) [49
 
 ]
+(../Codes/Graph/MISC/games_on_random_graphs.cpp [50
+
+]) [51]
 Chapter 3.
 
-Underfull \hbox (badness 10000) in paragraph at lines 184--185
+Underfull \hbox (badness 10000) in paragraph at lines 190--191
 
  []
 
-("../Codes/Dynamic Programming/Optimizations/divide_and_conquer.cpp") [50
+("../Codes/Dynamic Programming/Optimizations/divide_and_conquer.cpp") [52
 
 ]
-("../Codes/Dynamic Programming/Optimizations/divide_and_conquer_2.cpp" [51
+("../Codes/Dynamic Programming/Optimizations/divide_and_conquer_2.cpp" [53
 
 ])
-[52] ("../Codes/Dynamic Programming/Optimizations/convex_hull_linear.cpp")
-[53
+[54] ("../Codes/Dynamic Programming/Optimizations/convex_hull_linear.cpp")
+[55
 
 ] ("../Codes/Dynamic Programming/Optimizations/convex_hull_dynamic.cpp")
-[54] ("../Codes/Dynamic Programming/Optimizations/knuth.cpp") [55
+[56] ("../Codes/Dynamic Programming/Optimizations/knuth.cpp") [57
 
 ]
 ("../Codes/Dynamic Programming/Common Problems/Matrix Exponentiation/matrix_exp
-.cpp" [56
+.cpp" [58
 
-]) [57] ("../Codes/Dynamic Programming/Digits/dp_on_digits.cpp"
-[58
+]) [59] ("../Codes/Dynamic Programming/Digits/dp_on_digits.cpp"
+[60
 
-]) [59]
+]) [61]
 LaTeX Font Info:    Font shape `OMS/bch/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 225.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 242.
 
 ("../Codes/Dynamic Programming/Common Problems/Grundy Numbers/grundy.cpp")
-[60
+[62
+
+] ("../Codes/Dynamic Programming/Common Problems/all_bitmask_subpattern.cpp") [
+63
 
 ]
 Chapter 4.
-(../Codes/String/Hash/hash.cpp [61
+(../Codes/String/Hash/hash.cpp [64
 
-]) [62] (../Codes/String/KMP/kmp.cpp)
-[63
+]) [65] (../Codes/String/KMP/kmp.cpp)
+[66
 
-] ("../Codes/String/Aho Corasick/aho_corasick.cpp" [64
+] ("../Codes/String/Aho Corasick/aho_corasick.cpp" [67
 
-]) [65]
-(../Codes/String/Manacher/manacher.cpp) [66
+]) [68]
+(../Codes/String/Manacher/manacher.cpp) [69
 
-] (../Codes/String/Z-Algorithm/z.cpp) [67
+] (../Codes/String/Z-Algorithm/z.cpp) [70
 
-] ("../Codes/String/Suffix Array/suffix_array_lcp_O(n).cpp" [68
+] ("../Codes/String/Suffix Array/suffix_array_lcp_O(n).cpp" [71
 
-]) [69]
-[70]
+]) [72]
 Chapter 5.
-[71
-
-] ("../Codes/Mathematic/Number Theory/Prime Numbers/linear_sieve.cpp")
-[72
-
-] ("../Codes/Mathematic/Number Theory/Prime Numbers/miller_rabin.cpp")
 [73
 
-] ("../Codes/Mathematic/Number Theory/Prime Numbers/bpsw.cpp" [74
+] ("../Codes/Mathematic/Number Theory/Prime Numbers/linear_sieve.cpp")
+[74
 
-]) [75]
-("../Codes/Mathematic/Number Theory/Prime Numbers/primality_test.cpp") [76
+] ("../Codes/Mathematic/Number Theory/Prime Numbers/miller_rabin.cpp")
+[75
+
+] ("../Codes/Mathematic/Number Theory/Prime Numbers/bpsw.cpp" [76
+
+]) [77]
+("../Codes/Mathematic/Number Theory/Prime Numbers/primality_test.cpp") [78
 
 ]
 ("../Codes/Mathematic/Number Theory/Prime Numbers/Pollard Rho/pollard_rho.java"
-) [77
+) [79
 
-] ("../Codes/Mathematic/Number Theory/FFT/fft_multiply.cpp" [78
+] ("../Codes/Mathematic/Number Theory/FFT/fft_multiply.cpp" [80
 
-]) [79]
+]) [81]
 ("../Codes/Mathematic/Number Theory/Modular/invmod.cpp")
-("../Codes/Mathematic/Number Theory/Modular/all_modinv.cpp") [80
-
-] [81
+("../Codes/Mathematic/Number Theory/Modular/all_modinv.cpp") [82
 
 ]
-("../Codes/Mathematic/Gaussian Elimination/gaussian.cpp") [82
+("../Codes/Mathematic/Number Theory/Modular/fact.cpp") [83
+
+]
+("../Codes/Mathematic/Gaussian Elimination/gaussian.cpp") [84
+
+]
+(../Codes/Mathematic/Combinatorics/n_choose_k.cpp)
+(../Codes/Mathematic/Combinatorics/n_choose_k_imp.cpp) [85
+
+]
+(../Codes/Mathematic/Calculus/integral.cpp) [86
 
 ]
 Chapter 6.
-(../Codes/Geometry/2d/point.cpp) [83
+(../Codes/Geometry/2d/point.cpp) [87
 
 ] (../Codes/Geometry/2d/functions.cpp
-[84
+[88
 
-]) [85] (../Codes/Geometry/2d/polygons.cpp [86
+]) [89] (../Codes/Geometry/2d/polygons.cpp [90
 
-] [87]) [88]
-(../Codes/Geometry/3d/points.cpp [89
+] [91]) [92]
+(../Codes/Geometry/2d/point_inside_polygon.cpp [93
 
-] [90]) [91] [92
-
-]
-("../Codes/Geometry/Convex Hull/monotonechain.cpp") [93
+]) [94]
+(../Codes/Geometry/2d/circle_line_intersection.cpp) [95
 
 ]
-("../Codes/Geometry/Rotating Calipers/rotating_calipers.cpp") [94
+(../Codes/Geometry/2d/largest_circle_inside_convex_polygon.cpp [96
+
+]) [97]
+Underfull \hbox (badness 10000) in paragraph at lines 341--345
+
+ []
+
+(../Codes/Geometry/2d/all_nearest_pair_of_points.cpp) [98
 
 ]
-("../Codes/Geometry/KD Tree/kdtree.cpp" [95
+(../Codes/Geometry/3d/points.cpp [99
 
-]) [96]
+] [100]) [101]
+("../Codes/Geometry/Convex Hull/graham_scan.cpp") [102
+
+]
+("../Codes/Geometry/Convex Hull/monotonechain.cpp") [103
+
+]
+("../Codes/Geometry/Rotating Calipers/rotating_calipers.cpp") [104
+
+]
+("../Codes/Geometry/KD Tree/kdtree.cpp" [105
+
+]) [106]
 Chapter 7.
-(../Codes/Misc/josephus.cpp) [97
+(../Codes/Misc/josephus.cpp) [107
 
 ]
 Chapter 8.
-(../Codes/Template/cpp.cpp [98
+(../Codes/Template/cpp.cpp [108
 
-]) [99] (../Codes/Template/timecheck.cpp)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 337.
+]) [109] (../Codes/Template/timecheck.cpp)
+(../Codes/Template/rand.cpp) [110
 
-[100
+] (../Codes/Template/java.java) [111
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 337.
+Chapter 9.
+[112
+
+]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 415.
+ [113
+
+]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 415.
  (notebook_latex.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 337.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 337.
-
-
-Package rerunfilecheck Warning: File `notebook_latex.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `notebook_latex.out':
-(rerunfilecheck)             Before: C7C0BE955FBCB75AB1FFDD656155EB76;7195
-(rerunfilecheck)             After:  4F6D01714B00FAB63FD16DF1653522B6;6865.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 337.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 415.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 415.
+Package rerunfilecheck Info: File `notebook_latex.out' has not changed.
+(rerunfilecheck)             Checksum: A6CDB41CD5C7386BFCB333DF4E3677E0;7300.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 415.
  ) 
 Here is how much of TeX's memory you used:
- 17064 strings out of 493328
- 252687 string characters out of 3139125
- 663411 words of memory out of 3000000
- 15331 multiletter control sequences out of 15000+200000
- 63391 words of font info for 100 fonts, out of 3000000 for 9000
+ 17781 strings out of 493323
+ 263836 string characters out of 3139057
+ 664141 words of memory out of 3000000
+ 15499 multiletter control sequences out of 15000+200000
+ 68735 words of font info for 108 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 47i,6n,97p,268b,1769s stack positions out of 5000i,500n,10000p,200000b,50000s
-pdfTeX warning (dest): name{section.9.5} has been referenced but does not exi
-st, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.9.4} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.9.3} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.9.2} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.9.1} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{chapter.9} has been referenced but does not exist, 
-replaced by a fixed one
-
-{C:/Users/DaviD/AppData/Roaming/MiKTeX/2.9/fonts/enc/dvips/ly1/texnansi.enc}{C:
-/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Users/DaviD/AppData/R
-oaming/MiKTeX/2.9/fonts/type1/bitstrea/charter/bchb8a.pfb><C:/Users/DaviD/AppDa
-ta/Roaming/MiKTeX/2.9/fonts/type1/bitstrea/charter/bchr8a.pfb><C:/Users/DaviD/A
-ppData/Roaming/MiKTeX/2.9/fonts/type1/bitstrea/charter/bchri8a.pfb><C:/Program 
-Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/Mi
-KTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/DaviD/AppData/Roami
-ng/MiKTeX/2.9/fonts/type1/mathdesign/mdbch/md-chr7t.pfb><C:/Users/DaviD/AppData
-/Roaming/MiKTeX/2.9/fonts/type1/mathdesign/mdbch/md-chr7y.pfb><C:/Users/DaviD/A
-ppData/Roaming/MiKTeX/2.9/fonts/type1/mathdesign/mdbch/md-chri7m.pfb>
-Output written on notebook_latex.pdf (101 pages, 1054906 bytes).
+ 47i,7n,97p,268b,1769s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Users/DaviD-PC/AppData/Roaming/MiKTeX/2.9/fonts/enc/dvips/ly1/texnansi.en
+c}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Users/DaviD-PC/A
+ppData/Roaming/MiKTeX/2.9/fonts/type1/bitstrea/charter/bchb8a.pfb><C:/Users/Dav
+iD-PC/AppData/Roaming/MiKTeX/2.9/fonts/type1/bitstrea/charter/bchr8a.pfb><C:/Us
+ers/DaviD-PC/AppData/Roaming/MiKTeX/2.9/fonts/type1/bitstrea/charter/bchri8a.pf
+b><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Pr
+ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/DaviD
+-PC/AppData/Roaming/MiKTeX/2.9/fonts/type1/mathdesign/mdbch/md-chr7t.pfb><C:/Us
+ers/DaviD-PC/AppData/Roaming/MiKTeX/2.9/fonts/type1/mathdesign/mdbch/md-chr7v.p
+fb><C:/Users/DaviD-PC/AppData/Roaming/MiKTeX/2.9/fonts/type1/mathdesign/mdbch/m
+d-chr7y.pfb><C:/Users/DaviD-PC/AppData/Roaming/MiKTeX/2.9/fonts/type1/mathdesig
+n/mdbch/md-chri7m.pfb>
+Output written on notebook_latex.pdf (114 pages, 1165305 bytes).
 PDF statistics:
- 6619 PDF objects out of 7423 (max. 8388607)
- 4843 named destinations out of 5155 (max. 500000)
+ 7271 PDF objects out of 7423 (max. 8388607)
+ 5348 named destinations out of 6186 (max. 500000)
  881 words of extra memory for PDF output out of 10000 (max. 10000000)
 

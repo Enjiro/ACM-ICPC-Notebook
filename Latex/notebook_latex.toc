@@ -53,59 +53,65 @@
 \contentsline {subsection}{\numberline {2.6.6}All-Pairs Distance \& FFT}{48}{subsection.2.6.6}
 \contentsline {section}{\numberline {2.7}MISC}{49}{section.2.7}
 \contentsline {subsection}{\numberline {2.7.1}2-SAT}{49}{subsection.2.7.1}
-\contentsline {chapter}{\numberline {3}Dynamic Programming}{50}{chapter.3}
-\contentsline {section}{\numberline {3.1}Optimizations}{50}{section.3.1}
-\contentsline {subsection}{\numberline {3.1.1}Divide and Counquer - Example 1}{50}{subsection.3.1.1}
-\contentsline {subsection}{\numberline {3.1.2}Divide and Counquer - Example 2}{51}{subsection.3.1.2}
-\contentsline {subsection}{\numberline {3.1.3}Convex Hull I}{53}{subsection.3.1.3}
-\contentsline {subsubsection}{Linear}{53}{subsubsection*.7}
-\contentsline {subsubsection}{Dynamic}{54}{subsubsection*.8}
-\contentsline {subsection}{\numberline {3.1.4}Convex Hull II}{54}{subsection.3.1.4}
-\contentsline {subsection}{\numberline {3.1.5}Knuth Optimization}{55}{subsection.3.1.5}
-\contentsline {section}{\numberline {3.2}Matrix Exponentiation}{56}{section.3.2}
-\contentsline {section}{\numberline {3.3}Digits}{58}{section.3.3}
-\contentsline {section}{\numberline {3.4}Grundy Numbers}{60}{section.3.4}
-\contentsline {chapter}{\numberline {4}String}{61}{chapter.4}
-\contentsline {section}{\numberline {4.1}Hash}{61}{section.4.1}
-\contentsline {section}{\numberline {4.2}KMP}{63}{section.4.2}
-\contentsline {section}{\numberline {4.3}Aho Corasick}{64}{section.4.3}
-\contentsline {section}{\numberline {4.4}Manacher}{66}{section.4.4}
-\contentsline {section}{\numberline {4.5}Z-Algorithm}{67}{section.4.5}
-\contentsline {section}{\numberline {4.6}Suffix Array \& LCP}{68}{section.4.6}
-\contentsline {section}{\numberline {4.7}Suffix Tree}{70}{section.4.7}
-\contentsline {chapter}{\numberline {5}Mathematic}{71}{chapter.5}
-\contentsline {section}{\numberline {5.1}Prime Numbers}{71}{section.5.1}
-\contentsline {subsection}{\numberline {5.1.1}Erastotenes Sieve}{71}{subsection.5.1.1}
-\contentsline {subsection}{\numberline {5.1.2}Linear Sieve}{72}{subsection.5.1.2}
-\contentsline {subsection}{\numberline {5.1.3}Miller Rabin}{73}{subsection.5.1.3}
-\contentsline {subsection}{\numberline {5.1.4}BPSW}{74}{subsection.5.1.4}
-\contentsline {subsection}{\numberline {5.1.5}Primality Test}{76}{subsection.5.1.5}
-\contentsline {subsection}{\numberline {5.1.6}Java Pollard Rho Decomposition}{77}{subsection.5.1.6}
-\contentsline {section}{\numberline {5.2}Chinese Remainder Theorem}{77}{section.5.2}
-\contentsline {section}{\numberline {5.3}Fast Fourier Transformation}{78}{section.5.3}
-\contentsline {section}{\numberline {5.4}Modular Math}{80}{section.5.4}
-\contentsline {subsection}{\numberline {5.4.1}Multiplicative Inverse}{80}{subsection.5.4.1}
-\contentsline {subsection}{\numberline {5.4.2}Linear All Multiplicative Inverse}{80}{subsection.5.4.2}
-\contentsline {subsection}{\numberline {5.4.3}Factorial}{81}{subsection.5.4.3}
-\contentsline {section}{\numberline {5.5}Gaussian Elimination}{82}{section.5.5}
-\contentsline {section}{\numberline {5.6}Combinatorics}{82}{section.5.6}
-\contentsline {chapter}{\numberline {6}Geometry}{83}{chapter.6}
-\contentsline {section}{\numberline {6.1}2d}{83}{section.6.1}
-\contentsline {subsection}{\numberline {6.1.1}Point Template}{83}{subsection.6.1.1}
-\contentsline {subsection}{\numberline {6.1.2}Functions}{84}{subsection.6.1.2}
-\contentsline {subsection}{\numberline {6.1.3}Polygons}{86}{subsection.6.1.3}
-\contentsline {section}{\numberline {6.2}3d}{89}{section.6.2}
-\contentsline {subsection}{\numberline {6.2.1}Point Template}{89}{subsection.6.2.1}
-\contentsline {section}{\numberline {6.3}Convex Hull}{92}{section.6.3}
-\contentsline {subsection}{\numberline {6.3.1}Graham Scan}{92}{subsection.6.3.1}
-\contentsline {subsection}{\numberline {6.3.2}Monotone Chain}{93}{subsection.6.3.2}
-\contentsline {section}{\numberline {6.4}Rotating Calipers}{94}{section.6.4}
-\contentsline {section}{\numberline {6.5}KD Tree}{95}{section.6.5}
-\contentsline {section}{\numberline {6.6}Range Tree}{96}{section.6.6}
-\contentsline {section}{\numberline {6.7}Circle Sweep}{96}{section.6.7}
-\contentsline {chapter}{\numberline {7}Misc}{97}{chapter.7}
-\contentsline {section}{\numberline {7.1}Josephus}{97}{section.7.1}
-\contentsline {chapter}{\numberline {8}Templates}{98}{chapter.8}
-\contentsline {section}{\numberline {8.1}C++}{98}{section.8.1}
-\contentsline {section}{\numberline {8.2}Java}{99}{section.8.2}
-\contentsline {section}{\numberline {8.3}Time Check}{100}{section.8.3}
+\contentsline {subsection}{\numberline {2.7.2}Games on Random Graphs}{50}{subsection.2.7.2}
+\contentsline {chapter}{\numberline {3}Dynamic Programming}{52}{chapter.3}
+\contentsline {section}{\numberline {3.1}Optimizations}{52}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Divide and Counquer - Example 1}{52}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1.2}Divide and Counquer - Example 2}{53}{subsection.3.1.2}
+\contentsline {subsection}{\numberline {3.1.3}Convex Hull I}{55}{subsection.3.1.3}
+\contentsline {subsubsection}{Linear}{55}{subsubsection*.7}
+\contentsline {subsubsection}{Dynamic}{56}{subsubsection*.8}
+\contentsline {subsection}{\numberline {3.1.4}Convex Hull II}{56}{subsection.3.1.4}
+\contentsline {subsection}{\numberline {3.1.5}Knuth Optimization}{57}{subsection.3.1.5}
+\contentsline {section}{\numberline {3.2}Matrix Exponentiation}{58}{section.3.2}
+\contentsline {section}{\numberline {3.3}Digits}{60}{section.3.3}
+\contentsline {section}{\numberline {3.4}Grundy Numbers}{62}{section.3.4}
+\contentsline {section}{\numberline {3.5}All Bitmasks subpatterns}{63}{section.3.5}
+\contentsline {chapter}{\numberline {4}String}{64}{chapter.4}
+\contentsline {section}{\numberline {4.1}Hash}{64}{section.4.1}
+\contentsline {section}{\numberline {4.2}KMP}{66}{section.4.2}
+\contentsline {section}{\numberline {4.3}Aho Corasick}{67}{section.4.3}
+\contentsline {section}{\numberline {4.4}Manacher}{69}{section.4.4}
+\contentsline {section}{\numberline {4.5}Z-Algorithm}{70}{section.4.5}
+\contentsline {section}{\numberline {4.6}Suffix Array \& LCP}{71}{section.4.6}
+\contentsline {chapter}{\numberline {5}Mathematic}{73}{chapter.5}
+\contentsline {section}{\numberline {5.1}Prime Numbers}{73}{section.5.1}
+\contentsline {subsection}{\numberline {5.1.1}Linear Sieve}{74}{subsection.5.1.1}
+\contentsline {subsection}{\numberline {5.1.2}Miller Rabin}{75}{subsection.5.1.2}
+\contentsline {subsection}{\numberline {5.1.3}BPSW}{76}{subsection.5.1.3}
+\contentsline {subsection}{\numberline {5.1.4}Primality Test}{78}{subsection.5.1.4}
+\contentsline {subsection}{\numberline {5.1.5}Java Pollard Rho Decomposition}{79}{subsection.5.1.5}
+\contentsline {section}{\numberline {5.2}Fast Fourier Transformation}{80}{section.5.2}
+\contentsline {section}{\numberline {5.3}Modular Math}{82}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}Multiplicative Inverse}{82}{subsection.5.3.1}
+\contentsline {subsection}{\numberline {5.3.2}Linear All Multiplicative Inverse}{82}{subsection.5.3.2}
+\contentsline {subsection}{\numberline {5.3.3}Factorial}{83}{subsection.5.3.3}
+\contentsline {section}{\numberline {5.4}Gaussian Elimination}{84}{section.5.4}
+\contentsline {section}{\numberline {5.5}Combinatorics}{85}{section.5.5}
+\contentsline {section}{\numberline {5.6}Integral}{86}{section.5.6}
+\contentsline {chapter}{\numberline {6}Geometry}{87}{chapter.6}
+\contentsline {section}{\numberline {6.1}2d}{87}{section.6.1}
+\contentsline {subsection}{\numberline {6.1.1}Point Template}{87}{subsection.6.1.1}
+\contentsline {subsection}{\numberline {6.1.2}Functions}{88}{subsection.6.1.2}
+\contentsline {subsection}{\numberline {6.1.3}Polygons}{90}{subsection.6.1.3}
+\contentsline {subsection}{\numberline {6.1.4}Point Inside Polygon}{93}{subsection.6.1.4}
+\contentsline {subsection}{\numberline {6.1.5}Circle Line Intersection}{95}{subsection.6.1.5}
+\contentsline {subsection}{\numberline {6.1.6}Larges Circle Inside Convex Polygon}{96}{subsection.6.1.6}
+\contentsline {subsection}{\numberline {6.1.7}All nearest pair of points}{98}{subsection.6.1.7}
+\contentsline {section}{\numberline {6.2}3d}{99}{section.6.2}
+\contentsline {subsection}{\numberline {6.2.1}Point Template}{99}{subsection.6.2.1}
+\contentsline {section}{\numberline {6.3}Convex Hull}{102}{section.6.3}
+\contentsline {subsection}{\numberline {6.3.1}Graham Scan}{102}{subsection.6.3.1}
+\contentsline {subsection}{\numberline {6.3.2}Monotone Chain}{103}{subsection.6.3.2}
+\contentsline {section}{\numberline {6.4}Rotating Calipers}{104}{section.6.4}
+\contentsline {section}{\numberline {6.5}KD Tree}{105}{section.6.5}
+\contentsline {chapter}{\numberline {7}Misc}{107}{chapter.7}
+\contentsline {section}{\numberline {7.1}Josephus}{107}{section.7.1}
+\contentsline {chapter}{\numberline {8}Templates}{108}{chapter.8}
+\contentsline {section}{\numberline {8.1}C++}{108}{section.8.1}
+\contentsline {section}{\numberline {8.2}Time Check}{110}{section.8.2}
+\contentsline {section}{\numberline {8.3}Rand}{110}{section.8.3}
+\contentsline {section}{\numberline {8.4}Java}{111}{section.8.4}
+\contentsline {chapter}{\numberline {9}Formulas}{112}{chapter.9}
+\contentsline {section}{\numberline {9.1}Combinatorics}{112}{section.9.1}
+\contentsline {section}{\numberline {9.2}Catalan Numbers}{113}{section.9.2}

@@ -12,7 +12,10 @@
 \def\rmdefault{bch}
 \usepackage{titlesec}
 \usepackage{hyperref}
+\usepackage{amsmath}
+
 \makeatletter
+
 \newcommand{\zebra}[2]{%
 	\begingroup
 	\lst@basicstyle
@@ -176,6 +179,9 @@
 	\section{MISC}
 		\subsection{2-SAT}
 			\lstinputlisting{"../Codes/Graph/2-SAT/2sat.cpp"}
+		\newpage
+		\subsection{Games on Random Graphs}
+			\lstinputlisting{"../Codes/Graph/MISC/games_on_random_graphs.cpp"}
 		
 \chapter{Dynamic Programming}
 
@@ -214,6 +220,17 @@
 			\lstinputlisting{"../Codes/Dynamic Programming/Optimizations/knuth.cpp"}
 	\newpage
 	\section{Matrix Exponentiation}
+	\[
+	T=
+		\begin{bmatrix}
+		0 & 1 & 0 & 0 & ... & 0 \\
+		0 & 0 & 1 & 0 & ... & 0 \\
+		0 & 0 & 0 & 1 & ... & 0 \\
+		... & ... & ... & ... & ... & ... \\
+		c_{k} & c_{k-1} & c_{k-2} & c_{k-3} & ... & c_{1} \\
+		\end{bmatrix}
+	\]
+	$$F_{N} = T^{N-1}F_{1}$$
 		\lstinputlisting{"../Codes/Dynamic Programming/Common Problems/Matrix Exponentiation/matrix_exp.cpp"}
 	\newpage
 	\section{Digits}
@@ -227,6 +244,10 @@
 			\item If a player is able to move only to the winning positions then he is in a losing position.
 		\end{itemize}
 		\lstinputlisting{"../Codes/Dynamic Programming/Common Problems/Grundy Numbers/grundy.cpp"}
+	\newpage
+	\section{All Bitmasks subpatterns}
+		\lstinputlisting{"../Codes/Dynamic Programming/Common Problems/all_bitmask_subpattern.cpp"}
+		
 \chapter{String}
 	\section{Hash}
 		\lstinputlisting{"../Codes/String/Hash/hash.cpp"}
@@ -245,11 +266,11 @@
 	\newpage
 	\section{Suffix Array \& LCP}
 		\lstinputlisting{"../Codes/String/Suffix Array/suffix_array_lcp_O(n).cpp"}
-	\section{Suffix Tree}
+	%\section{Suffix Tree}
 	
 \chapter{Mathematic}
 	\section{Prime Numbers}
-		\subsection{Erastotenes Sieve}
+		%\subsection{Erastotenes Sieve}
 		\newpage
 		\subsection{Linear Sieve}
 			\lstinputlisting{"../Codes/Mathematic/Number Theory/Prime Numbers/linear_sieve.cpp"}
@@ -266,7 +287,7 @@
 		\subsection{Java Pollard Rho Decomposition}
 			\lstinputlisting{"../Codes/Mathematic/Number Theory/Prime Numbers/Pollard Rho/pollard_rho.java"}
 		
-	\section{Chinese Remainder Theorem}
+	%\section{Chinese Remainder Theorem}
 	
 	\newpage
 	\section{Fast Fourier Transformation}
@@ -280,11 +301,21 @@
 			\lstinputlisting{"../Codes/Mathematic/Number Theory/Modular/all_modinv.cpp"}
 		\newpage
 		\subsection{Factorial}
-			lstinputlisting{"../Codes/Mathematic/Number Theory/Modular/fact.cpp"}
+		$(N!)\%P$ in $O(P*log_{n})$ 
+			\lstinputlisting{"../Codes/Mathematic/Number Theory/Modular/fact.cpp"}
 	\newpage
 	\section{Gaussian Elimination}
 		\lstinputlisting{"../Codes/Mathematic/Gaussian Elimination/gaussian.cpp"}
+	\newpage
 	\section{Combinatorics}
+		$C_{n}^{k} = \dfrac{n!}{k!(n-k)!}$
+		\lstinputlisting{"../Codes/Mathematic/Combinatorics/n_choose_k.cpp"}
+		Improved implementation:
+		\lstinputlisting{"../Codes/Mathematic/Combinatorics/n_choose_k_imp.cpp"}
+	\newpage
+	\section{Integral}
+		$\int_{a}^{b} f(x) dx$
+		\lstinputlisting{"../Codes/Mathematic/Calculus/integral.cpp"}
 	
 \chapter{Geometry}
 	\section{2d}
@@ -296,6 +327,24 @@
 		\newpage
 		\subsection{Polygons}
 			\lstinputlisting{"../Codes/Geometry/2d/polygons.cpp"}
+		\newpage
+		\subsection{Point Inside Polygon}
+			\lstinputlisting{"../Codes/Geometry/2d/point_inside_polygon.cpp"}
+		\newpage
+		\subsection{Circle Line Intersection}
+			\lstinputlisting{"../Codes/Geometry/2d/circle_line_intersection.cpp"}
+		\newpage
+		\subsection{Larges Circle Inside Convex Polygon}
+			\lstinputlisting{"../Codes/Geometry/2d/largest_circle_inside_convex_polygon.cpp"}
+		\newpage
+		\subsection{All nearest pair of points}
+			Call:\\
+			$sort(a, a+n, \&cmp\_x);$\\
+			$mindist = 1E20;$\\
+			$rec (0, n-1);$\\
+			\lstinputlisting{"../Codes/Geometry/2d/all_nearest_pair_of_points.cpp"}
+				
+			
 	\newpage
 	\section{3d}
 		\subsection{Point Template}
@@ -304,6 +353,7 @@
 	\newpage
 	\section{Convex Hull}
 		\subsection{Graham Scan}
+			\lstinputlisting{"../Codes/Geometry/Convex Hull/graham_scan.cpp"}
 		\newpage
 		\subsection{Monotone Chain}
 		Use 2d point template
@@ -314,8 +364,8 @@
 		\lstinputlisting{"../Codes/Geometry/Rotating Calipers/rotating_calipers.cpp"}
 	\section{KD Tree}
 		\lstinputlisting{"../Codes/Geometry/KD Tree/kdtree.cpp"}
-	\section{Range Tree}
-	\section{Circle Sweep}
+	%\section{Range Tree}
+	%\section{Circle Sweep}
 	
 \chapter{Misc}
 	\section{Josephus}
@@ -323,15 +373,43 @@
 \chapter{Templates}
 	\section{C++}
 		\lstinputlisting{"../Codes/Template/cpp.cpp"}
-	\section{Java}
 	\newpage
 	\section{Time Check}
 		\lstinputlisting{"../Codes/Template/timecheck.cpp"}
+	\section{Rand}
+		\lstinputlisting{"../Codes/Template/rand.cpp"}
+	\newpage
+	\section{Java}
+		\lstinputlisting{"../Codes/Template/java.java"}
 	
-%\chapter{Formulas}
+\chapter{Formulas}
 %	\section{Areas}
 %	\section{Volumes}
 %	\section{Series}
-%	\section{Combinatorics}
+	\section{Combinatorics}
+		\begin{itemize}
+			\item Symmetry rule:
+			$C_{n}^{k} = C_{n-k}^{k}$
+			\item Entry-Excerpt:
+			$C_{n}^{k} = \dfrac{n}{k}*C_{n-1}^{k-1}$
+			\item Summation by k:
+			$\sum_{k=0}^{n}C_{n}^{k} = 2^{n}$
+			\item Summation by n:
+			$\sum_{m=0}^{n}C_{m}^{k} = C_{n+1}^{k+1}$
+			\item Summation over n and k:
+			$\sum_{k=0}^{m}C_{n+k}^{k} = C_{n+m+1}^{m}$
+			\item Summation of squares:
+			$(C_{n}^{0})^{2} + (C_{n}^{1})^{2} + ... + (C_{n}^{n})^{2} = C_{2n}^{n}$
+			\item Weighted summation:
+			$1C_{n}^{1} + 2C_{n}^{2} + ... + nC_{n}^{n} = n2^{n-1}$
+			\item Contact with Fibonacci numbers:
+			$C_{n}^{0} + C_{n-1}^{1} + ... + C_{n-k}^{k} + ... + C_{0}^{n} = Fib_{n+1}$
+		\end{itemize}
+	\newpage
+	\section{Catalan Numbers}
+	\begin{itemize}
+		\item $C_{n, m} = \binom{n+m}{n}$
+		\item $C_{n} = \binom{2n}{n}$
+	\end{itemize}
 %	\section{Integral}
 \end{document}

@@ -48,57 +48,63 @@
 \BOOKMARK [2][-]{subsection.2.6.6}{All-Pairs Distance \046 FFT}{section.2.6}% 48
 \BOOKMARK [1][-]{section.2.7}{MISC}{chapter.2}% 49
 \BOOKMARK [2][-]{subsection.2.7.1}{2-SAT}{section.2.7}% 50
-\BOOKMARK [0][-]{chapter.3}{Dynamic Programming}{}% 51
-\BOOKMARK [1][-]{section.3.1}{Optimizations}{chapter.3}% 52
-\BOOKMARK [2][-]{subsection.3.1.1}{Divide and Counquer - Example 1}{section.3.1}% 53
-\BOOKMARK [2][-]{subsection.3.1.2}{Divide and Counquer - Example 2}{section.3.1}% 54
-\BOOKMARK [2][-]{subsection.3.1.3}{Convex Hull I}{section.3.1}% 55
-\BOOKMARK [2][-]{subsection.3.1.4}{Convex Hull II}{section.3.1}% 56
-\BOOKMARK [2][-]{subsection.3.1.5}{Knuth Optimization}{section.3.1}% 57
-\BOOKMARK [1][-]{section.3.2}{Matrix Exponentiation}{chapter.3}% 58
-\BOOKMARK [1][-]{section.3.3}{Digits}{chapter.3}% 59
-\BOOKMARK [1][-]{section.3.4}{Grundy Numbers}{chapter.3}% 60
-\BOOKMARK [0][-]{chapter.4}{String}{}% 61
-\BOOKMARK [1][-]{section.4.1}{Hash}{chapter.4}% 62
-\BOOKMARK [1][-]{section.4.2}{KMP}{chapter.4}% 63
-\BOOKMARK [1][-]{section.4.3}{Aho Corasick}{chapter.4}% 64
-\BOOKMARK [1][-]{section.4.4}{Manacher}{chapter.4}% 65
-\BOOKMARK [1][-]{section.4.5}{Z-Algorithm}{chapter.4}% 66
-\BOOKMARK [1][-]{section.4.6}{Suffix Array \046 LCP}{chapter.4}% 67
-\BOOKMARK [1][-]{section.4.7}{Suffix Tree}{chapter.4}% 68
-\BOOKMARK [0][-]{chapter.5}{Mathematic}{}% 69
-\BOOKMARK [1][-]{section.5.1}{Prime Numbers}{chapter.5}% 70
-\BOOKMARK [2][-]{subsection.5.1.1}{Erastotenes Sieve}{section.5.1}% 71
-\BOOKMARK [2][-]{subsection.5.1.2}{Linear Sieve}{section.5.1}% 72
-\BOOKMARK [2][-]{subsection.5.1.3}{Miller Rabin}{section.5.1}% 73
-\BOOKMARK [2][-]{subsection.5.1.4}{BPSW}{section.5.1}% 74
-\BOOKMARK [2][-]{subsection.5.1.5}{Primality Test}{section.5.1}% 75
-\BOOKMARK [2][-]{subsection.5.1.6}{Java Pollard Rho Decomposition}{section.5.1}% 76
-\BOOKMARK [1][-]{section.5.2}{Chinese Remainder Theorem}{chapter.5}% 77
-\BOOKMARK [1][-]{section.5.3}{Fast Fourier Transformation}{chapter.5}% 78
-\BOOKMARK [1][-]{section.5.4}{Modular Math}{chapter.5}% 79
-\BOOKMARK [2][-]{subsection.5.4.1}{Multiplicative Inverse}{section.5.4}% 80
-\BOOKMARK [2][-]{subsection.5.4.2}{Linear All Multiplicative Inverse}{section.5.4}% 81
-\BOOKMARK [2][-]{subsection.5.4.3}{Factorial}{section.5.4}% 82
-\BOOKMARK [1][-]{section.5.5}{Gaussian Elimination}{chapter.5}% 83
-\BOOKMARK [1][-]{section.5.6}{Combinatorics}{chapter.5}% 84
+\BOOKMARK [2][-]{subsection.2.7.2}{Games on Random Graphs}{section.2.7}% 51
+\BOOKMARK [0][-]{chapter.3}{Dynamic Programming}{}% 52
+\BOOKMARK [1][-]{section.3.1}{Optimizations}{chapter.3}% 53
+\BOOKMARK [2][-]{subsection.3.1.1}{Divide and Counquer - Example 1}{section.3.1}% 54
+\BOOKMARK [2][-]{subsection.3.1.2}{Divide and Counquer - Example 2}{section.3.1}% 55
+\BOOKMARK [2][-]{subsection.3.1.3}{Convex Hull I}{section.3.1}% 56
+\BOOKMARK [2][-]{subsection.3.1.4}{Convex Hull II}{section.3.1}% 57
+\BOOKMARK [2][-]{subsection.3.1.5}{Knuth Optimization}{section.3.1}% 58
+\BOOKMARK [1][-]{section.3.2}{Matrix Exponentiation}{chapter.3}% 59
+\BOOKMARK [1][-]{section.3.3}{Digits}{chapter.3}% 60
+\BOOKMARK [1][-]{section.3.4}{Grundy Numbers}{chapter.3}% 61
+\BOOKMARK [1][-]{section.3.5}{All Bitmasks subpatterns}{chapter.3}% 62
+\BOOKMARK [0][-]{chapter.4}{String}{}% 63
+\BOOKMARK [1][-]{section.4.1}{Hash}{chapter.4}% 64
+\BOOKMARK [1][-]{section.4.2}{KMP}{chapter.4}% 65
+\BOOKMARK [1][-]{section.4.3}{Aho Corasick}{chapter.4}% 66
+\BOOKMARK [1][-]{section.4.4}{Manacher}{chapter.4}% 67
+\BOOKMARK [1][-]{section.4.5}{Z-Algorithm}{chapter.4}% 68
+\BOOKMARK [1][-]{section.4.6}{Suffix Array \046 LCP}{chapter.4}% 69
+\BOOKMARK [0][-]{chapter.5}{Mathematic}{}% 70
+\BOOKMARK [1][-]{section.5.1}{Prime Numbers}{chapter.5}% 71
+\BOOKMARK [2][-]{subsection.5.1.1}{Linear Sieve}{section.5.1}% 72
+\BOOKMARK [2][-]{subsection.5.1.2}{Miller Rabin}{section.5.1}% 73
+\BOOKMARK [2][-]{subsection.5.1.3}{BPSW}{section.5.1}% 74
+\BOOKMARK [2][-]{subsection.5.1.4}{Primality Test}{section.5.1}% 75
+\BOOKMARK [2][-]{subsection.5.1.5}{Java Pollard Rho Decomposition}{section.5.1}% 76
+\BOOKMARK [1][-]{section.5.2}{Fast Fourier Transformation}{chapter.5}% 77
+\BOOKMARK [1][-]{section.5.3}{Modular Math}{chapter.5}% 78
+\BOOKMARK [2][-]{subsection.5.3.1}{Multiplicative Inverse}{section.5.3}% 79
+\BOOKMARK [2][-]{subsection.5.3.2}{Linear All Multiplicative Inverse}{section.5.3}% 80
+\BOOKMARK [2][-]{subsection.5.3.3}{Factorial}{section.5.3}% 81
+\BOOKMARK [1][-]{section.5.4}{Gaussian Elimination}{chapter.5}% 82
+\BOOKMARK [1][-]{section.5.5}{Combinatorics}{chapter.5}% 83
+\BOOKMARK [1][-]{section.5.6}{Integral}{chapter.5}% 84
 \BOOKMARK [0][-]{chapter.6}{Geometry}{}% 85
 \BOOKMARK [1][-]{section.6.1}{2d}{chapter.6}% 86
 \BOOKMARK [2][-]{subsection.6.1.1}{Point Template}{section.6.1}% 87
 \BOOKMARK [2][-]{subsection.6.1.2}{Functions}{section.6.1}% 88
 \BOOKMARK [2][-]{subsection.6.1.3}{Polygons}{section.6.1}% 89
-\BOOKMARK [1][-]{section.6.2}{3d}{chapter.6}% 90
-\BOOKMARK [2][-]{subsection.6.2.1}{Point Template}{section.6.2}% 91
-\BOOKMARK [1][-]{section.6.3}{Convex Hull}{chapter.6}% 92
-\BOOKMARK [2][-]{subsection.6.3.1}{Graham Scan}{section.6.3}% 93
-\BOOKMARK [2][-]{subsection.6.3.2}{Monotone Chain}{section.6.3}% 94
-\BOOKMARK [1][-]{section.6.4}{Rotating Calipers}{chapter.6}% 95
-\BOOKMARK [1][-]{section.6.5}{KD Tree}{chapter.6}% 96
-\BOOKMARK [1][-]{section.6.6}{Range Tree}{chapter.6}% 97
-\BOOKMARK [1][-]{section.6.7}{Circle Sweep}{chapter.6}% 98
-\BOOKMARK [0][-]{chapter.7}{Misc}{}% 99
-\BOOKMARK [1][-]{section.7.1}{Josephus}{chapter.7}% 100
-\BOOKMARK [0][-]{chapter.8}{Templates}{}% 101
-\BOOKMARK [1][-]{section.8.1}{C++}{chapter.8}% 102
-\BOOKMARK [1][-]{section.8.2}{Java}{chapter.8}% 103
-\BOOKMARK [1][-]{section.8.3}{Time Check}{chapter.8}% 104
+\BOOKMARK [2][-]{subsection.6.1.4}{Point Inside Polygon}{section.6.1}% 90
+\BOOKMARK [2][-]{subsection.6.1.5}{Circle Line Intersection}{section.6.1}% 91
+\BOOKMARK [2][-]{subsection.6.1.6}{Larges Circle Inside Convex Polygon}{section.6.1}% 92
+\BOOKMARK [2][-]{subsection.6.1.7}{All nearest pair of points}{section.6.1}% 93
+\BOOKMARK [1][-]{section.6.2}{3d}{chapter.6}% 94
+\BOOKMARK [2][-]{subsection.6.2.1}{Point Template}{section.6.2}% 95
+\BOOKMARK [1][-]{section.6.3}{Convex Hull}{chapter.6}% 96
+\BOOKMARK [2][-]{subsection.6.3.1}{Graham Scan}{section.6.3}% 97
+\BOOKMARK [2][-]{subsection.6.3.2}{Monotone Chain}{section.6.3}% 98
+\BOOKMARK [1][-]{section.6.4}{Rotating Calipers}{chapter.6}% 99
+\BOOKMARK [1][-]{section.6.5}{KD Tree}{chapter.6}% 100
+\BOOKMARK [0][-]{chapter.7}{Misc}{}% 101
+\BOOKMARK [1][-]{section.7.1}{Josephus}{chapter.7}% 102
+\BOOKMARK [0][-]{chapter.8}{Templates}{}% 103
+\BOOKMARK [1][-]{section.8.1}{C++}{chapter.8}% 104
+\BOOKMARK [1][-]{section.8.2}{Time Check}{chapter.8}% 105
+\BOOKMARK [1][-]{section.8.3}{Rand}{chapter.8}% 106
+\BOOKMARK [1][-]{section.8.4}{Java}{chapter.8}% 107
+\BOOKMARK [0][-]{chapter.9}{Formulas}{}% 108
+\BOOKMARK [1][-]{section.9.1}{Combinatorics}{chapter.9}% 109
+\BOOKMARK [1][-]{section.9.2}{Catalan Numbers}{chapter.9}% 110
